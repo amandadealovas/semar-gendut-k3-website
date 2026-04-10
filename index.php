@@ -9,32 +9,18 @@ require_once 'includes/header.php';
   <div class="hero-bg"></div>
   <div class="hero-diagonal"></div>
   <div class="hero-image-side">
-    <div style="width:100%;height:100%;background:linear-gradient(135deg,#112240 0%,#1a3a5c 50%,#0077a8 100%);display:flex;align-items:center;justify-content:center;overflow:hidden;">
-      <!-- SVG Bus Illustration -->
-      <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" style="width:90%;opacity:0.6;">
-        <rect x="20" y="60" width="520" height="160" rx="20" fill="#1a3a5c" stroke="#00b4d8" stroke-width="2"/>
-        <rect x="40" y="80" width="80" height="60" rx="4" fill="#00b4d8" opacity="0.6"/>
-        <rect x="140" y="80" width="80" height="60" rx="4" fill="#00b4d8" opacity="0.6"/>
-        <rect x="240" y="80" width="80" height="60" rx="4" fill="#00b4d8" opacity="0.6"/>
-        <rect x="340" y="80" width="80" height="60" rx="4" fill="#00b4d8" opacity="0.6"/>
-        <rect x="440" y="80" width="80" height="60" rx="4" fill="#00b4d8" opacity="0.6"/>
-        <rect x="20" y="150" width="520" height="40" rx="0" fill="#0a1628" opacity="0.5"/>
-        <rect x="0" y="50" width="40" height="30" rx="4" fill="#00b4d8"/>
-        <circle cx="100" cy="230" r="28" fill="#112240" stroke="#00b4d8" stroke-width="3"/>
-        <circle cx="100" cy="230" r="14" fill="#0a1628"/>
-        <circle cx="440" cy="230" r="28" fill="#112240" stroke="#00b4d8" stroke-width="3"/>
-        <circle cx="440" cy="230" r="14" fill="#0a1628"/>
-        <text x="120" y="130" font-family="Arial" font-size="18" fill="#00b4d8" font-weight="bold">PT. SGI</text>
-        <rect x="22" y="62" width="516" height="6" rx="3" fill="#00b4d8" opacity="0.8"/>
-      </svg>
-    </div>
-    <div class="hero-image-overlay"></div>
+    <img
+      src="<?php echo $base_path ?? ''; ?>assets/images/bus.png"
+      alt="Armada Bus Double Decker PT. Semar Gendut Indonesia"
+      width="797"
+      height="399">
   </div>
-
   <div class="container" style="position:relative;z-index:2;width:100%;">
     <div class="hero-content">
       <div class="hero-badge">
-        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+        </svg>
         Transportasi Bus Premium Berstandar K3
       </div>
 
@@ -50,32 +36,40 @@ require_once 'includes/header.php';
 
       <div class="hero-actions">
         <a href="pages/layanan.php" class="btn btn-primary btn-lg">
-          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 8 16 12 12 16" />
+            <line x1="8" y1="12" x2="16" y2="12" />
+          </svg>
           Lihat Layanan
         </a>
         <a href="pages/k3.php" class="btn btn-outline btn-lg">
-          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
           Info K3
         </a>
       </div>
+</section>
 
-      <div class="hero-stats">
-        <div class="stat-item">
-          <div class="stat-num" data-target="50" data-suffix="+">0+</div>
-          <div class="stat-label">Unit Armada</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num" data-target="15" data-suffix=" Kota">0 Kota</div>
-          <div class="stat-label">Rute Perjalanan</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num" data-target="200" data-suffix="+">0+</div>
-          <div class="stat-label">Karyawan</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num" data-target="0" data-suffix=" Fatality">0</div>
-          <div class="stat-label">Zero Fatality</div>
-        </div>
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-wrapper">
+      <div class="stat-item">
+        <div class="stat-num" data-target="50" data-suffix="+">0+</div>
+        <div class="stat-label">Unit Armada</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="15" data-suffix=" Kota">0 Kota</div>
+        <div class="stat-label">Rute Perjalanan</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="200" data-suffix="+">0+</div>
+        <div class="stat-label">Karyawan</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="0" data-suffix=" Fatality">0</div>
+        <div class="stat-label">Zero Fatality</div>
       </div>
     </div>
   </div>
@@ -93,42 +87,61 @@ require_once 'includes/header.php';
       <div class="why-grid" style="margin-top:0;">
         <div class="why-card fade-in">
           <div class="why-icon">
-            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3"/><rect x="9" y="11" width="14" height="10" rx="2"/><path d="M13 15h.01M17 15h.01M13 19h.01M17 19h.01"/></svg>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3" />
+              <rect x="9" y="11" width="14" height="10" rx="2" />
+              <path d="M13 15h.01M17 15h.01M13 19h.01M17 19h.01" />
+            </svg>
           </div>
           <h4>Armada Modern</h4>
           <p>Seluruh armada dilengkapi teknologi terkini, AC premium, kursi reclining, dan sistem keselamatan canggih untuk kenyamanan maksimal.</p>
         </div>
         <div class="why-card fade-in">
           <div class="why-icon">
-            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
           </div>
           <h4>Keselamatan Prioritas</h4>
           <p>Sistem K3 komprehensif, pengemudi bersertifikat, dan pemeriksaan rutin memastikan setiap perjalanan berlangsung aman dan terjamin.</p>
         </div>
         <div class="why-card fade-in">
           <div class="why-icon">
-            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
           </div>
           <h4>Tepat Waktu</h4>
           <p>Kami beroperasi dengan jadwal terstruktur dan sistem monitoring real-time, memastikan ketepatan waktu keberangkatan dan kedatangan.</p>
         </div>
         <div class="why-card fade-in">
           <div class="why-icon">
-            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
           </div>
           <h4>Tim Profesional</h4>
           <p>Pengemudi dan kru terlatih yang ramah, berpengalaman, dan memiliki sertifikasi resmi dari lembaga yang berwenang.</p>
         </div>
         <div class="why-card fade-in">
           <div class="why-icon">
-            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+            </svg>
           </div>
           <h4>Pemantauan Real-Time</h4>
           <p>Sistem GPS tracking memungkinkan pemantauan posisi armada secara langsung untuk keamanan penumpang dan efisiensi operasional.</p>
         </div>
         <div class="why-card fade-in">
           <div class="why-icon">
-            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <line x1="12" y1="1" x2="12" y2="23" />
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+            </svg>
           </div>
           <h4>Harga Kompetitif</h4>
           <p>Tarif transparan dan bersaing tanpa biaya tersembunyi. Tersedia berbagai paket layanan yang fleksibel untuk semua kebutuhan.</p>
@@ -149,7 +162,13 @@ require_once 'includes/header.php';
       <div class="service-card" id="antar-kota">
         <div class="service-img">
           <div style="width:100%;height:100%;background:linear-gradient(135deg,#112240,#0077a8);display:flex;align-items:center;justify-content:center;">
-            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><rect x="5" y="25" width="65" height="35" rx="6" fill="#00b4d8" opacity="0.4"/><rect x="5" y="35" width="65" height="15" rx="0" fill="#00b4d8" opacity="0.2"/><circle cx="20" cy="62" r="8" fill="#48cae4" opacity="0.8"/><circle cx="60" cy="62" r="8" fill="#48cae4" opacity="0.8"/><rect x="5" y="27" width="65" height="4" rx="2" fill="#00b4d8"/></svg>
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+              <rect x="5" y="25" width="65" height="35" rx="6" fill="#00b4d8" opacity="0.4" />
+              <rect x="5" y="35" width="65" height="15" rx="0" fill="#00b4d8" opacity="0.2" />
+              <circle cx="20" cy="62" r="8" fill="#48cae4" opacity="0.8" />
+              <circle cx="60" cy="62" r="8" fill="#48cae4" opacity="0.8" />
+              <rect x="5" y="27" width="65" height="4" rx="2" fill="#00b4d8" />
+            </svg>
           </div>
         </div>
         <div class="service-overlay"></div>
@@ -163,7 +182,11 @@ require_once 'includes/header.php';
       <div class="service-card" id="pariwisata">
         <div class="service-img">
           <div style="width:100%;height:100%;background:linear-gradient(135deg,#0a1628,#1a3a5c);display:flex;align-items:center;justify-content:center;">
-            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="14" fill="#00b4d8" opacity="0.5"/><path d="M40 44 L25 65 L55 65 Z" fill="#48cae4" opacity="0.4"/><circle cx="40" cy="30" r="6" fill="#fff" opacity="0.7"/></svg>
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+              <circle cx="40" cy="30" r="14" fill="#00b4d8" opacity="0.5" />
+              <path d="M40 44 L25 65 L55 65 Z" fill="#48cae4" opacity="0.4" />
+              <circle cx="40" cy="30" r="6" fill="#fff" opacity="0.7" />
+            </svg>
           </div>
         </div>
         <div class="service-overlay"></div>
@@ -177,7 +200,12 @@ require_once 'includes/header.php';
       <div class="service-card" id="logistik">
         <div class="service-img">
           <div style="width:100%;height:100%;background:linear-gradient(135deg,#112240,#0a1628);display:flex;align-items:center;justify-content:center;">
-            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><rect x="10" y="30" width="40" height="30" rx="4" fill="#00b4d8" opacity="0.4"/><rect x="50" y="40" width="20" height="20" rx="4" fill="#48cae4" opacity="0.4"/><circle cx="22" cy="62" r="6" fill="#fff" opacity="0.7"/><circle cx="58" cy="62" r="6" fill="#fff" opacity="0.7"/></svg>
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+              <rect x="10" y="30" width="40" height="30" rx="4" fill="#00b4d8" opacity="0.4" />
+              <rect x="50" y="40" width="20" height="20" rx="4" fill="#48cae4" opacity="0.4" />
+              <circle cx="22" cy="62" r="6" fill="#fff" opacity="0.7" />
+              <circle cx="58" cy="62" r="6" fill="#fff" opacity="0.7" />
+            </svg>
           </div>
         </div>
         <div class="service-overlay"></div>
@@ -191,7 +219,14 @@ require_once 'includes/header.php';
       <div class="service-card" id="korporat">
         <div class="service-img">
           <div style="width:100%;height:100%;background:linear-gradient(135deg,#0077a8,#112240);display:flex;align-items:center;justify-content:center;">
-            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><rect x="20" y="15" width="40" height="50" rx="4" fill="#00b4d8" opacity="0.4"/><rect x="28" y="25" width="10" height="10" rx="2" fill="#fff" opacity="0.6"/><rect x="42" y="25" width="10" height="10" rx="2" fill="#fff" opacity="0.6"/><rect x="28" y="40" width="10" height="10" rx="2" fill="#fff" opacity="0.6"/><rect x="42" y="40" width="10" height="10" rx="2" fill="#fff" opacity="0.6"/><rect x="33" y="55" width="14" height="10" rx="0" fill="#fff" opacity="0.4"/></svg>
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+              <rect x="20" y="15" width="40" height="50" rx="4" fill="#00b4d8" opacity="0.4" />
+              <rect x="28" y="25" width="10" height="10" rx="2" fill="#fff" opacity="0.6" />
+              <rect x="42" y="25" width="10" height="10" rx="2" fill="#fff" opacity="0.6" />
+              <rect x="28" y="40" width="10" height="10" rx="2" fill="#fff" opacity="0.6" />
+              <rect x="42" y="40" width="10" height="10" rx="2" fill="#fff" opacity="0.6" />
+              <rect x="33" y="55" width="14" height="10" rx="0" fill="#fff" opacity="0.4" />
+            </svg>
           </div>
         </div>
         <div class="service-overlay"></div>
@@ -218,7 +253,9 @@ require_once 'includes/header.php';
         <div class="k3-items">
           <div class="k3-item">
             <div class="k3-item-icon">
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
             </div>
             <div>
               <h4>Standar APD Wajib</h4>
@@ -227,7 +264,11 @@ require_once 'includes/header.php';
           </div>
           <div class="k3-item">
             <div class="k3-item-icon">
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
+              </svg>
             </div>
             <div>
               <h4>Identifikasi &amp; Pengendalian Bahaya</h4>
@@ -236,7 +277,13 @@ require_once 'includes/header.php';
           </div>
           <div class="k3-item">
             <div class="k3-item-icon">
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
+              </svg>
             </div>
             <div>
               <h4>SOP &amp; Prosedur Darurat</h4>
@@ -245,7 +292,10 @@ require_once 'includes/header.php';
           </div>
           <div class="k3-item">
             <div class="k3-item-icon">
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
             </div>
             <div>
               <h4>Zero Accident Target</h4>
@@ -298,7 +348,9 @@ require_once 'includes/header.php';
           </div>
         </div>
         <div style="background:rgba(0,180,216,0.1);border:1px solid rgba(0,180,216,0.2);border-radius:10px;padding:16px;margin-top:16px;display:flex;align-items:center;gap:12px;">
-          <svg width="28" height="28" fill="none" stroke="#00b4d8" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <svg width="28" height="28" fill="none" stroke="#00b4d8" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
           <div>
             <div style="font-family:'Barlow Condensed',sans-serif;color:#fff;font-weight:700;text-transform:uppercase;font-size:0.95rem;">Landasan Hukum</div>
             <div style="font-size:0.78rem;color:rgba(255,255,255,0.6);margin-top:2px;">UU No.1/1970 • Permenaker K3 • UU LLAJ No.22/2009 • Permenhub PM14/2016</div>
@@ -309,7 +361,6 @@ require_once 'includes/header.php';
   </div>
 </section>
 
-<!-- ===================== FLEET PREVIEW ===================== -->
 <section class="fleet-section">
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
@@ -319,34 +370,52 @@ require_once 'includes/header.php';
         <p style="color:var(--text-mid);margin-top:12px;line-height:1.7;">Tim mekanik bersertifikat kami melakukan perawatan berkala dan inspeksi pra-perjalanan (pre-trip inspection) untuk memastikan setiap bus dalam kondisi prima sebelum beroperasi.</p>
         <a href="pages/layanan.php#armada" class="btn btn-primary" style="margin-top:24px;">Lihat Detail Armada</a>
       </div>
+      
       <div class="fleet-features">
         <div class="fleet-feature">
-          <div class="fleet-feature-icon">🚌</div>
+          <div class="fleet-feature-icon">
+            <i data-lucide="bus"></i>
+          </div>
           <h4>Bus Premium</h4>
           <p>Double decker & single deck AC premium</p>
         </div>
+        
         <div class="fleet-feature">
-          <div class="fleet-feature-icon">📡</div>
+          <div class="fleet-feature-icon">
+            <i data-lucide="satellite-dish"></i>
+          </div>
           <h4>GPS Tracker</h4>
           <p>Monitoring posisi real-time 24/7</p>
         </div>
+        
         <div class="fleet-feature">
-          <div class="fleet-feature-icon">🔧</div>
+          <div class="fleet-feature-icon">
+            <i data-lucide="settings-2"></i>
+          </div>
           <h4>Servis Berkala</h4>
           <p>Maintenance terjadwal di bengkel sendiri</p>
         </div>
+        
         <div class="fleet-feature">
-          <div class="fleet-feature-icon">🔥</div>
+          <div class="fleet-feature-icon">
+            <i data-lucide="flame-kindling"></i>
+          </div>
           <h4>APAR Terintegrasi</h4>
           <p>Pemadam api tersedia di setiap unit</p>
         </div>
+        
         <div class="fleet-feature">
-          <div class="fleet-feature-icon">🆘</div>
+          <div class="fleet-feature-icon">
+            <i data-lucide="life-buoy"></i>
+          </div>
           <h4>Kit Darurat</h4>
           <p>Kotak P3K & palu pemecah kaca</p>
         </div>
+        
         <div class="fleet-feature">
-          <div class="fleet-feature-icon">🌬️</div>
+          <div class="fleet-feature-icon">
+            <i data-lucide="snowflake"></i>
+          </div>
           <h4>AC Premium</h4>
           <p>Sistem pendingin suhu 18–24°C stabil</p>
         </div>
@@ -366,12 +435,18 @@ require_once 'includes/header.php';
       <div class="cta-actions">
         <a href="pages/kontak.php" class="btn btn-primary btn-lg">Hubungi Kami</a>
         <a href="tel:+62341123456" class="btn btn-outline btn-lg">
-          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
           (0341) 123-456
         </a>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  lucide.createIcons();
+</script>
 
 <?php require_once 'includes/footer.php'; ?>
