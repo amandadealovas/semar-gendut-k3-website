@@ -50,7 +50,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <li><a href="<?php echo $base_path ?? ''; ?>pages/layanan.php" class="<?php echo ($current_page == 'layanan.php') ? 'active' : ''; ?>">Layanan</a></li>
         <li><a href="<?php echo $base_path ?? ''; ?>pages/k3.php" class="<?php echo ($current_page == 'k3.php') ? 'active' : ''; ?>">K3</a></li>
         <li><a href="<?php echo $base_path ?? ''; ?>pages/tentang.php" class="<?php echo ($current_page == 'tentang.php') ? 'active' : ''; ?>">Tentang</a></li>
-        <li><a href="<?php echo $base_path ?? ''; ?>pages/kontak.php" class="<?php echo ($current_page == 'kontak.php') ? 'active' : ''; ?>">Kontak</a></li>
         <li><a href="<?php echo $base_path ?? ''; ?>pages/kontak.php" class="nav-cta <?php echo ($current_page == 'kontak.php') ? 'active' : ''; ?>">Hubungi Kami</a></li>
       </ul>
 

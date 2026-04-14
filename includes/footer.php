@@ -66,11 +66,11 @@
       <div class="footer-col">
         <h5>Perusahaan</h5>
         <ul>
-          <li><a href="pages/tentang.php">Tentang Kami</a></li>
-          <li><a href="pages/tentang.php#sejarah">Sejarah</a></li>
-          <li><a href="pages/tentang.php#visi">Visi &amp; Misi</a></li>
-          <li><a href="pages/tentang.php#struktur">Struktur Organisasi</a></li>
-          <li><a href="pages/kontak.php">Hubungi Kami</a></li>
+          <li><a href="../pages/tentang.php">Tentang Kami</a></li>
+          <li><a href="../pages/tentang.php#sejarah">Sejarah</a></li>
+          <li><a href="../pages/tentang.php#visi">Visi &amp; Misi</a></li>
+          <li><a href="../pages/tentang.php#struktur">Struktur Organisasi</a></li>
+          <li><a href="../pages/kontak.php">Hubungi Kami</a></li>
         </ul>
       </div>
     </div>
