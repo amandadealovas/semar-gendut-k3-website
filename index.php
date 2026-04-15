@@ -3,6 +3,7 @@ $page_title = 'Beranda';
 $base_path = '';
 require_once 'includes/header.php';
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <!-- ===================== HERO ===================== -->
 <section class="hero">
@@ -309,51 +310,68 @@ require_once 'includes/header.php';
       <div class="k3-visual">
         <div class="k3-visual-card">
           <h3>Standar APD Per Divisi</h3>
+
           <div class="apd-grid">
             <div class="apd-item">
-              <div class="apd-emoji">⛑️</div>
+              <div class="apd-emoji"><i class="fas fa-hard-hat" style="font-size:28px;color:#ffffff;"></i></div>
               <div class="apd-name">Safety Helmet</div>
             </div>
+
             <div class="apd-item">
-              <div class="apd-emoji">🥾</div>
+              <div class="apd-emoji"><i class="fas fa-shoe-prints" style="font-size:28px;color:#ffffff;"></i></div>
               <div class="apd-name">Safety Shoes</div>
             </div>
+
             <div class="apd-item">
-              <div class="apd-emoji">🦺</div>
+              <div class="apd-emoji"><i class="fas fa-vest" style="font-size:28px;color:#ffffff;"></i></div>
               <div class="apd-name">Rompi Reflektif</div>
             </div>
+
             <div class="apd-item">
-              <div class="apd-emoji">🥽</div>
+              <div class="apd-emoji"><i class="fas fa-glasses" style="font-size:28px;color:#ffffff;"></i></div>
               <div class="apd-name">Safety Glasses</div>
             </div>
+
             <div class="apd-item">
-              <div class="apd-emoji">😷</div>
+              <div class="apd-emoji"><i class="fas fa-mask-face" style="font-size:28px;color:#ffffff;"></i></div>
               <div class="apd-name">Masker/Respirator</div>
             </div>
+
             <div class="apd-item">
-              <div class="apd-emoji">🧤</div>
+              <div class="apd-emoji"><i class="fas fa-mitten" style="font-size:28px;color:#ffffff;"></i></div>
               <div class="apd-name">Safety Gloves</div>
             </div>
+
             <div class="apd-item">
-              <div class="apd-emoji">🎧</div>
+              <div class="apd-emoji"><i class="fas fa-headphones" style="font-size:28px;color:#ffffff;"></i></div>
               <div class="apd-name">Earplug/Earmuff</div>
             </div>
+
             <div class="apd-item">
-              <div class="apd-emoji">🦺</div>
+              <div class="apd-emoji"><i class="fas fa-user-shield" style="font-size:28px;color:#ffffff;"></i></div>
               <div class="apd-name">Full Body Harness</div>
             </div>
           </div>
+
           <div style="margin-top:20px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.1);">
-            <p style="font-size:0.8rem;color:rgba(255,255,255,0.5);text-align:center;">Semua APD memenuhi standar SNI / ANSI / ISO</p>
+            <p style="font-size:0.8rem;color:rgba(255,255,255,0.5);text-align:center;">
+              Semua APD memenuhi standar SNI / ANSI / ISO
+            </p>
           </div>
         </div>
-        <div style="background:rgba(0,180,216,0.1);border:1px solid rgba(0,180,216,0.2);border-radius:10px;padding:16px;margin-top:16px;display:flex;align-items:center;gap:12px;">
-          <svg width="28" height="28" fill="none" stroke="#00b4d8" stroke-width="2" viewBox="0 0 24 24">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-          </svg>
+
+        <div style="background:rgba(255, 255, 255, 0.1);border:1px solid rgba(0,180,216,0.2);border-radius:10px;padding:16px;margin-top:16px;display:flex;align-items:center;gap:12px;">
+
+          <!-- ICON DIGANTI DARI SVG KE FONT AWESOME -->
+          <i class="fas fa-shield-alt" style="font-size:28px;color:#00b4d8;"></i>
+
           <div>
-            <div style="font-family:'Barlow Condensed',sans-serif;color:#fff;font-weight:700;text-transform:uppercase;font-size:0.95rem;">Landasan Hukum</div>
-            <div style="font-size:0.78rem;color:rgba(255,255,255,0.6);margin-top:2px;">UU No.1/1970 • Permenaker K3 • UU LLAJ No.22/2009 • Permenhub PM14/2016</div>
+            <div style="font-family:'Barlow Condensed',sans-serif;color:#fff;font-weight:700;text-transform:uppercase;font-size:0.95rem;">
+              Landasan Hukum
+            </div>
+            <div style="font-size:0.78rem;color:rgba(255,255,255,0.6);margin-top:2px;">
+              UU No.1/1970 • Permenaker K3 • UU LLAJ No.22/2009 • Permenhub PM14/2016
+            </div>
           </div>
         </div>
       </div>
@@ -370,7 +388,7 @@ require_once 'includes/header.php';
         <p style="color:var(--text-mid);margin-top:12px;line-height:1.7;">Tim mekanik bersertifikat kami melakukan perawatan berkala dan inspeksi pra-perjalanan (pre-trip inspection) untuk memastikan setiap bus dalam kondisi prima sebelum beroperasi.</p>
         <a href="pages/layanan.php#armada" class="btn btn-primary" style="margin-top:24px;">Lihat Detail Armada</a>
       </div>
-      
+
       <div class="fleet-features">
         <div class="fleet-feature">
           <div class="fleet-feature-icon">
@@ -379,7 +397,7 @@ require_once 'includes/header.php';
           <h4>Bus Premium</h4>
           <p>Double decker & single deck AC premium</p>
         </div>
-        
+
         <div class="fleet-feature">
           <div class="fleet-feature-icon">
             <i data-lucide="satellite-dish"></i>
@@ -387,7 +405,7 @@ require_once 'includes/header.php';
           <h4>GPS Tracker</h4>
           <p>Monitoring posisi real-time 24/7</p>
         </div>
-        
+
         <div class="fleet-feature">
           <div class="fleet-feature-icon">
             <i data-lucide="settings-2"></i>
@@ -395,7 +413,7 @@ require_once 'includes/header.php';
           <h4>Servis Berkala</h4>
           <p>Maintenance terjadwal di bengkel sendiri</p>
         </div>
-        
+
         <div class="fleet-feature">
           <div class="fleet-feature-icon">
             <i data-lucide="flame-kindling"></i>
@@ -403,7 +421,7 @@ require_once 'includes/header.php';
           <h4>APAR Terintegrasi</h4>
           <p>Pemadam api tersedia di setiap unit</p>
         </div>
-        
+
         <div class="fleet-feature">
           <div class="fleet-feature-icon">
             <i data-lucide="life-buoy"></i>
@@ -411,7 +429,7 @@ require_once 'includes/header.php';
           <h4>Kit Darurat</h4>
           <p>Kotak P3K & palu pemecah kaca</p>
         </div>
-        
+
         <div class="fleet-feature">
           <div class="fleet-feature-icon">
             <i data-lucide="snowflake"></i>

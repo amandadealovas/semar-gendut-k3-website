@@ -7,17 +7,11 @@
       <!-- Brand -->
       <div class="footer-brand">
         <div class="footer-logo-wrap">
-          <div class="logo-icon" style="width:40px;height:40px;">
-            <svg width="22" height="22" fill="none" viewBox="0 0 40 28">
-              <rect x="0" y="8" width="32" height="14" rx="3" fill="#00b4d8"/>
-              <rect x="32" y="10" width="8" height="10" rx="2" fill="#48cae4"/>
-              <circle cx="8" cy="24" r="4" fill="#fff"/>
-              <circle cx="26" cy="24" r="4" fill="#fff"/>
-              <rect x="4" y="4" width="16" height="8" rx="2" fill="#0077a8"/>
-            </svg>
-          </div>
+            <a href="<?php echo $base_path ?? ''; ?>index.php" class="logo">
+        <img style="width: 150px; height: 50px;" src="<?php echo $base_path ?? ''; ?>assets/images/1.png" alt="Semar Gendut Logo">
+      </a>
           <div>
-            <div class="logo-text" style="color:#fff;">S<span>G</span>I</div>
+            <div class="logo-text" style="color:#fff;"> <span> </span> </div>
             <span class="logo-sub">Semar Gendut Indonesia</span>
           </div>
         </div>
