@@ -83,6 +83,18 @@ require_once 'includes/header.php';
       <div>
         <h2 class="section-title">Mengapa Memilih<br><span>SGI?</span></h2>
         <p class="section-subtitle" style="margin-top:16px;">Kami membangun kepercayaan melalui keselamatan, profesionalisme, dan layanan prima setiap hari.</p>
+        <!-- FOTO -->
+        <img 
+          src="assets/images/sgi.jpeg" 
+          alt="SGI Transport"
+          style="
+            width:100%;
+            margin-top:20px;
+            border-radius:12px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.1);
+            object-fit:cover;
+          "
+        >
         <a href="pages/tentang.php" class="btn btn-navy" style="margin-top:28px;">Pelajari Lebih Lanjut</a>
       </div>
       <div class="why-grid" style="margin-top:0;">
