@@ -5,7 +5,6 @@ require_once '../includes/header.php';
 ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- PAGE HERO -->
 <section class="page-hero">
   <div class="container page-hero-inner">
     <div class="breadcrumb">
@@ -18,19 +17,15 @@ require_once '../includes/header.php';
   </div>
 </section>
 
-<!-- ===================== APD SECTION ===================== -->
 <section class="section" id="apd">
   <div class="container">
     <h2 class="section-title">Standar <span>APD</span></h2>
     <p class="section-subtitle" style="margin-top:12px;">Alat Pelindung Diri (APD) wajib memenuhi standar SNI / ANSI / ISO dan disediakan perusahaan tanpa membebankan biaya kepada karyawan.</p>
 
-    <!-- APD Per Division -->
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:48px;">
 
-      <!-- Divisi Operasional -->
       <div style="background:var(--navy);border-radius:12px;padding:28px;color:var(--white);">
 
-        <!-- HEADER -->
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.1);">
 
           <div style="width:44px;height:44px;background:rgba(0,180,216,0.2);border-radius:8px;display:flex;align-items:center;justify-content:center;">
@@ -47,7 +42,6 @@ require_once '../includes/header.php';
           </div>
         </div>
 
-        <!-- LIST -->
         <ul style="display:flex;flex-direction:column;gap:10px;">
 
           <li style="display:flex;gap:10px;align-items:flex-start;">
@@ -94,7 +88,6 @@ require_once '../includes/header.php';
         </ul>
       </div>
 
-      <!-- Divisi Mekanik -->
       <div style="background:var(--navy);border-radius:12px;padding:28px;color:var(--white);">
 
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.1);">
@@ -155,7 +148,6 @@ require_once '../includes/header.php';
       </div>
 
 
-      <!-- Divisi Logistik & Pool -->
       <div style="background:var(--navy);border-radius:12px;padding:28px;color:var(--white);">
 
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.1);">
@@ -210,7 +202,6 @@ require_once '../includes/header.php';
 
     <div class="accordion">
 
-      <!-- ITEM -->
       <div class="accordion-item">
         <button class="accordion-header">
           <span><i class="fa-solid fa-helmet-safety"></i> Safety Helmet (Pelindung Kepala)</span>
@@ -235,7 +226,6 @@ require_once '../includes/header.php';
         </div>
       </div>
 
-      <!-- ITEM -->
       <div class="accordion-item">
         <button class="accordion-header">
           <span><i class="fa-solid fa-shoe-prints"></i> Safety Shoes & Rubber Boots</span>
@@ -260,7 +250,6 @@ require_once '../includes/header.php';
         </div>
       </div>
 
-      <!-- ITEM -->
       <div class="accordion-item">
         <button class="accordion-header">
           <span><i class="fa-solid fa-glasses"></i> Safety Glasses & Face Shield</span>
@@ -284,7 +273,6 @@ require_once '../includes/header.php';
         </div>
       </div>
 
-      <!-- ITEM -->
       <div class="accordion-item">
         <button class="accordion-header">
           <span><i class="fa-solid fa-mask-face"></i> Masker & Respirator</span>
@@ -308,7 +296,6 @@ require_once '../includes/header.php';
         </div>
       </div>
 
-      <!-- ITEM -->
       <div class="accordion-item">
         <button class="accordion-header">
           <span><i class="fa-solid fa-hand"></i> Safety Gloves</span>
@@ -332,7 +319,6 @@ require_once '../includes/header.php';
         </div>
       </div>
 
-      <!-- ITEM -->
       <div class="accordion-item">
         <button class="accordion-header">
           <span><i class="fa-solid fa-headphones"></i> Earplug & Earmuff</span>
@@ -355,7 +341,6 @@ require_once '../includes/header.php';
         </div>
       </div>
 
-      <!-- ITEM -->
       <div class="accordion-item">
         <button class="accordion-header">
           <span><i class="fa-solid fa-link"></i> Safety Harness</span>
@@ -382,11 +367,77 @@ require_once '../includes/header.php';
     </div>
 </section>
 
-<!-- ===================== SAFETY ZONES ===================== -->
 <section class="section section-gray" id="denah">
   <div class="container">
     <h2 class="section-title">Denah Keselamatan <span>(Safety Map)</span></h2>
     <p class="section-subtitle" style="margin-top:12px;">Area pool bus dan interior armada dizonasi menggunakan standar warna internasional untuk memudahkan identifikasi risiko dan tindakan yang diperlukan.</p>
+
+    <div class="denah-layout-wrapper">
+      <div style="text-align: center; background: #fff; padding: 20px; border-radius: 12px; box-shadow: var(--shadow);">
+        <img src="../assets/images/denah_pool.png" alt="Denah Safety Pool Bus" style="max-width: 100%; height: auto; border-radius: 8px;">
+        <p style="font-size: 0.8rem; color: var(--text-mid); margin-top: 10px;"><i>*Klik gambar untuk memperbesar denah jalur evakuasi dan titik kumpul</i></p>
+      </div>
+
+      <div style="background: #fff; padding: 24px; border-radius: 12px; box-shadow: var(--shadow); height: 100%;">
+        <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;text-transform:uppercase;color:var(--navy);margin-bottom:20px; border-bottom: 2px solid var(--cyan); padding-bottom: 12px;">
+          Keterangan Fasilitas Pool
+        </h3>
+
+        <div class="desc-list-wrapper">
+          
+          <div class="desc-item-layout">
+            <div class="desc-icon-box"><i class="fas fa-bus"></i></div>
+            <div>
+              <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Area Operasional & Manuver</h4>
+              <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
+                Meliputi <strong>Area Parkir Bus</strong> dan <strong>Area Pergerakan Bus</strong> yang ditandai dengan marka kuning-hitam sebagai peringatan kewaspadaan tinggi (Zona Kuning).
+              </p>
+            </div>
+          </div>
+
+          <div class="desc-item-layout">
+            <div class="desc-icon-box"><i class="fas fa-screwdriver-wrench"></i></div>
+            <div>
+              <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Bengkel & Perawatan Armada</h4>
+              <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
+                Pusat perbaikan armada meliputi <strong>Area Servis Mesin</strong>, <strong>Pit Service</strong>, <strong>Ruang Mekanik</strong>, dan <strong>Ruang Sparepart</strong>. Wajib memakai APD lengkap.
+              </p>
+            </div>
+          </div>
+
+          <div class="desc-item-layout">
+            <div class="desc-icon-box"><i class="fas fa-gas-pump"></i></div>
+            <div>
+              <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Logistik & Bahan Berbahaya</h4>
+              <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
+                Area dengan potensi risiko kimia dan api meliputi <strong>Area Pengisian BBM</strong>, <strong>Area Bahan Kimia Bengkel</strong> (cat/oli), dan <strong>Area Forklift / Loading</strong>.
+              </p>
+            </div>
+          </div>
+
+          <div class="desc-item-layout">
+            <div class="desc-icon-box"><i class="fas fa-building-user"></i></div>
+            <div>
+              <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Gedung Manajemen & Staf</h4>
+              <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
+                Gedung di sisi kiri yang menampung <strong>Ruang Administrasi</strong>, <strong>Ruang Sopir</strong>, <strong>Ruang Briefing</strong>, <strong>Dispatcher</strong>, <strong>Kantin</strong>, dan <strong>Pos Keamanan</strong>.
+              </p>
+            </div>
+          </div>
+
+          <div class="desc-item-layout">
+            <div class="desc-icon-box"><i class="fas fa-people-group"></i></div>
+            <div>
+              <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Titik Kumpul & Evakuasi</h4>
+              <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
+                <strong>Titik Kumpul (Assembly Point)</strong> berada di tengah area terbuka yang aman. Terhubung dengan <strong>Jalur Evakuasi</strong> (panah hijau) dari seluruh area pool.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <div class="zones-grid">
       <div class="zone-card zone-hijau">
@@ -407,49 +458,62 @@ require_once '../includes/header.php';
       </div>
     </div>
 
-    <!-- Interior Bus Safety -->
-    <div style="margin-top:48px;background:var(--white);border-radius:12px;padding:32px;box-shadow:var(--shadow);">
-      <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;text-transform:uppercase;color:var(--navy);margin-bottom:8px;">
-        Interior Bus — <span style="color:var(--cyan);">Keselamatan Penumpang</span>
-      </h3>
-      <p style="color:var(--text-mid);font-size:0.875rem;margin-bottom:24px;">
-        Setiap armada bus SGI dilengkapi fasilitas keselamatan standar untuk memproteksi penumpang dalam kondisi darurat.
-      </p>
+    <div style="margin-top:48px;">
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;">
-        <?php
-        $interior_items = [
-          ['fa-solid fa-hammer', 'Palu Pemecah Kaca', 'Ditempatkan di setiap pilar jendela darurat, mudah dijangkau'],
-          ['fa-solid fa-door-open', 'Pintu Darurat', 'Di bagian belakang/sisi kanan bus sebagai akses keluar ekstra'],
-          ['fa-solid fa-window-maximize', 'Jendela Darurat', 'Emergency exit window di sisi kiri dan kanan kabin'],
-          ['fa-solid fa-fire-extinguisher', 'APAR Bus', 'Di depan (dekat pengemudi) dan area pintu belakang'],
-          ['fa-solid fa-kit-medical', 'Kotak P3K Kabin', 'Di kompartemen depan dekat ruang kendali sopir'],
-          ['fa-solid fa-arrow-right', 'Jalur Evakuasi', 'Panah hijau di lorong mengarah ke titik keluar terdekat'],
-        ];
-
-        foreach ($interior_items as $item): ?>
-          <div class="interior-card">
-            <i class="<?= $item[0] ?>"></i>
-            <h4 style="font-size:0.85rem;color:var(--navy);text-transform:uppercase;margin-bottom:6px;">
-              <?= $item[1] ?>
-            </h4>
-            <p style="font-size:0.75rem;color:var(--text-mid);">
-              <?= $item[2] ?>
-            </p>
+      <h2 class="section-title">Interior Bus - <span>Keselamatan Penumpang</span></h2>
+      <p class="section-subtitle" style="margin-top:12px;">Setiap armada bus SGI dilengkapi fasilitas keselamatan standar untuk memproteksi penumpang dalam kondisi darurat.</p>
+        
+        <div class="denah-layout-wrapper">
+        <div style="text-align: center; background: #fff; padding: 20px; border-radius: 12px; box-shadow: var(--shadow);">
+          <img src="../assets/images/image.png" alt="Layout Keselamatan Interior Bus" style="max-width: 100%; height: auto; border-radius: 8px; margin: 0 auto;">
+          <div style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+             <span style="font-size: 11px; background: #f4f6f9; padding: 6px 12px; border-radius: 6px; border: 1px solid #e2e8f0; font-weight: 600;">Palu Pemecah Kaca</span>
+             <span style="font-size: 11px; background: #f4f6f9; padding: 6px 12px; border-radius: 6px; border: 1px solid #e2e8f0; font-weight: 600;">APAR</span>
+             <span style="font-size: 11px; background: #f4f6f9; padding: 6px 12px; border-radius: 6px; border: 1px solid #e2e8f0; font-weight: 600;">Pintu Darurat</span>
           </div>
-        <?php endforeach; ?>
+        </div>
+
+        <div style="background: #fff; padding: 24px; border-radius: 12px; box-shadow: var(--shadow); height: 100%;">
+          <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;text-transform:uppercase;color:var(--navy);margin-bottom:20px; border-bottom: 2px solid var(--cyan); padding-bottom: 12px;">
+            Fasilitas Keselamatan Bus
+          </h3>
+
+        <div class="desc-list-wrapper">
+            <?php
+            $interior_items = [
+              ['fa-solid fa-hammer', 'Palu Pemecah Kaca', 'Tersedia di setiap pilar jendela darurat untuk memecahkan kaca saat pintu tidak bisa diakses.'],
+              ['fa-solid fa-door-open', 'Pintu Darurat', 'Akses keluar ekstra yang berada di sisi kanan/kiri/belakang bus untuk evakuasi cepat.'],
+              ['fa-solid fa-window-maximize', 'Jendela Darurat', 'Jendela khusus (Emergency exit window) yang dirancang mudah dipecahkan atau didorong keluar.'],
+              ['fa-solid fa-fire-extinguisher', 'APAR Bus', 'Tersedia di area yang mudah dijangkau, biasanya di dekat pengemudi dan di pintu belakang.'],
+              ['fa-solid fa-kit-medical', 'Kotak P3K', 'Tersedia di kompartemen depan bus untuk pertolongan pertama pada cedera ringan.'],
+              ['fa-solid fa-arrow-right', 'Jalur Evakuasi', 'Petunjuk arah berupa stiker glow-in-the-dark yang menuntun penumpang ke titik keluar terdekat.'],
+            ];
+
+          foreach ($interior_items as $item): ?>
+              <div class="desc-item-layout">
+                <div class="desc-icon-box"><i class="<?= $item[0] ?>"></i></div>
+                <div>
+                  <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">
+                    <?= $item[1] ?>
+                  </h4>
+                  <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
+                    <?= $item[2] ?>
+                  </p>
+                </div>
+              </div>
+            <?php endforeach; ?>
+        </div>
+        
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== HAZARD IDENTIFICATION ===================== -->
 <section class="section" id="hazard">
   <div class="container">
     <h2 class="section-title">Identifikasi <span>Sumber Bahaya</span></h2>
     <p class="section-subtitle" style="margin-top:12px;">Berdasarkan analisis HIRARC, sumber bahaya di PT. Semar Gendut Indonesia diklasifikasikan ke dalam lima kategori utama.</p>
 
-    <!-- 5 Kategori -->
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:36px;">
       <?php
       $hazard_cats = [
@@ -468,7 +532,6 @@ require_once '../includes/header.php';
       <?php endforeach; ?>
     </div>
 
-    <!-- Risk Table -->
     <h3 style="margin-top:48px;font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;text-transform:uppercase;color:var(--navy);margin-bottom:16px;">Tabel Penilaian Risiko &amp; Pengendalian</h3>
     <div class="hazard-table-wrap">
       <table class="hazard-table">
@@ -517,7 +580,6 @@ require_once '../includes/header.php';
   </div>
 </section>
 
-<!-- ===================== HIERARCHY ===================== -->
 <section class="section section-gray" id="hierarki">
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:flex-start;">
@@ -586,7 +648,6 @@ require_once '../includes/header.php';
   </div>
 </section>
 
-<!-- ===================== PERATURAN ===================== -->
 <section class="section">
   <div class="container">
     <h2 class="section-title center" style="display:block;text-align:center;">Landasan <span>Hukum K3</span></h2>
@@ -609,10 +670,17 @@ require_once '../includes/header.php';
         </div>
       <?php endforeach; ?>
     </div>
+    <div style="margin-top: 48px; text-align: center;">
+      <a href="generate_pdf_hukum.php" target="_blank" class="btn btn-primary btn-lg" style="box-shadow: var(--shadow);">
+        <i class="fa-solid fa-file-pdf" style="margin-right: 8px;"></i> Unduh Laporan Landasan Hukum
+      </a>
+      <p style="font-size: 0.8rem; color: var(--text-mid); margin-top: 12px;">
+        *Dokumen mencakup rangkuman standar hukum K3 perusahaan.
+      </p>
+    </div>
   </div>
 </section>
 
-<!-- CTA -->
 <section class="cta-banner">
   <div class="container">
     <div class="cta-inner">
