@@ -44,6 +44,49 @@ body {
   overflow-x: hidden;
 }
 
+.denah-layout-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin: 40px 0;
+  align-items: start;
+}
+
+@media (min-width: 992px) {
+  .denah-layout-wrapper {
+    grid-template-columns: 60% 40%; 
+    gap: 32px;
+  }
+}
+
+.desc-item-layout {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed rgba(10, 22, 40, 0.1);
+}
+
+.desc-item-layout:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.desc-icon-box {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 180, 216, 0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cyan);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
 img {
   max-width: 100%;
   display: block;
