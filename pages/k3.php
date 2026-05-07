@@ -390,7 +390,7 @@ require_once '../includes/header.php';
             <div>
               <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Area Operasional & Manuver</h4>
               <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
-                Meliputi <strong>Area Parkir Bus</strong> dan <strong>Area Pergerakan Bus</strong> yang ditandai dengan marka kuning-hitam sebagai peringatan kewaspadaan tinggi (Zona Kuning).
+                Meliputi Area Parkir Bus dan Area Pergerakan Bus yang ditandai dengan marka kuning-hitam sebagai peringatan kewaspadaan tinggi (Zona Kuning).
               </p>
             </div>
           </div>
@@ -400,7 +400,7 @@ require_once '../includes/header.php';
             <div>
               <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Bengkel & Perawatan Armada</h4>
               <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
-                Pusat perbaikan armada meliputi <strong>Area Servis Mesin</strong>, <strong>Pit Service</strong>, <strong>Ruang Mekanik</strong>, dan <strong>Ruang Sparepart</strong>. Wajib memakai APD lengkap.
+                Pusat perbaikan armada meliputi Area Servis Mesin, Pit Service, Ruang Mekanik, dan Ruang Sparepart. Wajib memakai APD lengkap.
               </p>
             </div>
           </div>
@@ -410,7 +410,7 @@ require_once '../includes/header.php';
             <div>
               <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Logistik & Bahan Berbahaya</h4>
               <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
-                Area dengan potensi risiko kimia dan api meliputi <strong>Area Pengisian BBM</strong>, <strong>Area Bahan Kimia Bengkel</strong> (cat/oli), dan <strong>Area Forklift / Loading</strong>.
+                Area dengan potensi risiko kimia dan api meliputi Area Pengisian BBM, Area Bahan Kimia Bengkel (cat/oli), dan Area Forklift / Loading.
               </p>
             </div>
           </div>
@@ -420,7 +420,7 @@ require_once '../includes/header.php';
             <div>
               <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Gedung Manajemen & Staf</h4>
               <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
-                Gedung di sisi kiri yang menampung <strong>Ruang Administrasi</strong>, <strong>Ruang Sopir</strong>, <strong>Ruang Briefing</strong>, <strong>Dispatcher</strong>, <strong>Kantin</strong>, dan <strong>Pos Keamanan</strong>.
+                Gedung di sisi kiri yang menampung Ruang Administrasi, Ruang Sopir, Ruang Briefing, Dispatcher, Kantin, dan Pos Keamanan.
               </p>
             </div>
           </div>
@@ -430,12 +430,129 @@ require_once '../includes/header.php';
             <div>
               <h4 style="font-size:0.95rem;color:var(--navy);margin:0 0 4px 0;">Titik Kumpul & Evakuasi</h4>
               <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">
-                <strong>Titik Kumpul (Assembly Point)</strong> berada di tengah area terbuka yang aman. Terhubung dengan <strong>Jalur Evakuasi</strong> (panah hijau) dari seluruh area pool.
+                Titik Kumpul (Assembly Point) berada di tengah area terbuka yang aman. Terhubung dengan Jalur Evakuasi (panah hijau) dari seluruh area pool.
               </p>
             </div>
           </div>
 
         </div>
+      </div>
+    </div>
+    <div style="margin-top: 48px;">
+      <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;text-transform:uppercase;color:var(--navy);margin-bottom:24px; border-bottom: 2px solid var(--cyan); padding-bottom: 12px;">
+        Analisis Risiko & Potensi Bahaya Area Pool
+      </h3>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 24px;">
+
+        <div style="background: var(--white); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); border-top: 4px solid var(--yellow);">
+          <div style="display: flex; gap: 14px; align-items: center; margin-bottom: 16px;">
+            <div style="width: 44px; height: 44px; background: rgba(245, 158, 11, 0.1); color: var(--yellow); border-radius: 8px; display: flex; justify-content: center; align-items: center; font-size: 1.2rem;">
+              <i class="fas fa-route"></i>
+            </div>
+            <h4 style="font-size: 1.05rem; color: var(--navy); margin: 0; line-height: 1.3;">
+              Zona Lalu Lintas & Pergerakan Kendaraan
+              <span style="display:block; font-size: 0.8rem; color: var(--text-mid); font-weight: normal; margin-top: 2px;">(Area Manuver Bus)</span>
+            </h4>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-mid); margin-bottom: 20px; line-height: 1.6;">
+            Area dinamis ini mencakup seluruh jalur keluar-masuk dan ruang manuver armada yang dibatasi oleh marka kewaspadaan kuning-hitam.
+          </p>
+          <div style="background: #fef2f2; padding: 14px; border-radius: 8px; margin-bottom: 12px; border-left: 3px solid var(--red);">
+            <strong style="color: var(--red); font-size: 0.75rem; display: block; text-transform: uppercase; margin-bottom: 6px;">
+              <i class="fas fa-triangle-exclamation"></i> Potensi Bahaya
+            </strong>
+            <p style="margin: 0; font-size: 0.8rem; color: #991b1b; line-height: 1.5;">Risiko benturan fisik dan kecelakaan lalu lintas internal yang diakibatkan oleh keterbatasan jarak pandang (blind spot) pada kendaraan besar berdimensi panjang.</p>
+          </div>
+          <div style="background: #f0fdf4; padding: 14px; border-radius: 8px; border-left: 3px solid var(--green);">
+            <strong style="color: var(--green); font-size: 0.75rem; display: block; text-transform: uppercase; margin-bottom: 6px;">
+              <i class="fas fa-shield-halved"></i> Protokol Keselamatan
+            </strong>
+            <p style="margin: 0; font-size: 0.8rem; color: #166534; line-height: 1.5;">Area ini dilarang keras untuk aktivitas pejalan kaki non-operasional. Seluruh pergerakan personel wajib berada di dalam garis hijau jalur pejalan kaki (pedestrian path) yang telah disediakan.</p>
+          </div>
+        </div>
+
+        <div style="background: var(--white); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); border-top: 4px solid #2563eb;">
+          <div style="display: flex; gap: 14px; align-items: center; margin-bottom: 16px;">
+            <div style="width: 44px; height: 44px; background: rgba(37, 99, 235, 0.1); color: #2563eb; border-radius: 8px; display: flex; justify-content: center; align-items: center; font-size: 1.2rem;">
+              <i class="fas fa-screwdriver-wrench"></i>
+            </div>
+            <h4 style="font-size: 1.05rem; color: var(--navy); margin: 0; line-height: 1.3;">
+              Zona Intervensi Teknis
+              <span style="display:block; font-size: 0.8rem; color: var(--text-mid); font-weight: normal; margin-top: 2px;">(Bengkel Perawatan & Servis Mesin)</span>
+            </h4>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-mid); margin-bottom: 20px; line-height: 1.6;">
+            Sebagai pusat aktivitas teknis pemeliharaan armada, area ini memiliki intensitas pekerjaan fisik yang tinggi.
+          </p>
+          <div style="background: #fef2f2; padding: 14px; border-radius: 8px; margin-bottom: 12px; border-left: 3px solid var(--red);">
+            <strong style="color: var(--red); font-size: 0.75rem; display: block; text-transform: uppercase; margin-bottom: 6px;">
+              <i class="fas fa-triangle-exclamation"></i> Potensi Bahaya
+            </strong>
+            <p style="margin: 0; font-size: 0.8rem; color: #991b1b; line-height: 1.5;">Terdapat bahaya mekanis dari pengoperasian perkakas mesin, risiko insiden tertimpa komponen/suku cadang berat, serta paparan rutin terhadap cairan pelumas.</p>
+          </div>
+          <div style="background: #f0fdf4; padding: 14px; border-radius: 8px; border-left: 3px solid var(--green);">
+            <strong style="color: var(--green); font-size: 0.75rem; display: block; text-transform: uppercase; margin-bottom: 6px;">
+              <i class="fas fa-shield-halved"></i> Protokol Keselamatan
+            </strong>
+            <p style="margin: 0; font-size: 0.8rem; color: #166534; line-height: 1.5;">Penerapan standar APD secara mutlak. Teknisi wajib mengenakan Helm Safety, Sepatu Safety berpelindung baja, Kacamata Pelindung (Safety Goggles), dan Sarung Tangan Kerja.</p>
+          </div>
+        </div>
+
+        <div style="background: var(--white); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); border-top: 4px solid var(--red);">
+          <div style="display: flex; gap: 14px; align-items: center; margin-bottom: 16px;">
+            <div style="width: 44px; height: 44px; background: rgba(220, 38, 38, 0.1); color: var(--red); border-radius: 8px; display: flex; justify-content: center; align-items: center; font-size: 1.2rem;">
+              <i class="fas fa-fire-flame-curved"></i>
+            </div>
+            <h4 style="font-size: 1.05rem; color: var(--navy); margin: 0; line-height: 1.3;">
+              Zona Material Berbahaya
+              <span style="display:block; font-size: 0.8rem; color: var(--text-mid); font-weight: normal; margin-top: 2px;">(Area BBM & Bahan Kimia)</span>
+            </h4>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-mid); margin-bottom: 20px; line-height: 1.6;">
+            Fasilitas pengisian bahan bakar dan ruang penyimpanan bahan kimia operasional diklasifikasikan sebagai High-Risk Zone.
+          </p>
+          <div style="background: #fef2f2; padding: 14px; border-radius: 8px; margin-bottom: 12px; border-left: 3px solid var(--red);">
+            <strong style="color: var(--red); font-size: 0.75rem; display: block; text-transform: uppercase; margin-bottom: 6px;">
+              <i class="fas fa-triangle-exclamation"></i> Potensi Bahaya
+            </strong>
+            <p style="margin: 0; font-size: 0.8rem; color: #991b1b; line-height: 1.5;">Ancaman bahaya kebakaran dan ledakan (fire hazard), ditambah dengan risiko kesehatan dari paparan langsung zat beracun atau material korosif.</p>
+          </div>
+          <div style="background: #f0fdf4; padding: 14px; border-radius: 8px; border-left: 3px solid var(--green);">
+            <strong style="color: var(--green); font-size: 0.75rem; display: block; text-transform: uppercase; margin-bottom: 6px;">
+              <i class="fas fa-shield-halved"></i> Protokol Keselamatan
+            </strong>
+            <p style="margin: 0; font-size: 0.8rem; color: #166534; line-height: 1.5;">Kewajiban penerapan zona bebas sumber api secara ketat. Akses penanganan material pada zona ini hanya diperuntukkan bagi personel khusus tersertifikasi.</p>
+          </div>
+        </div>
+
+        <div style="background: var(--white); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); border-top: 4px solid var(--cyan);">
+          <div style="display: flex; gap: 14px; align-items: center; margin-bottom: 16px;">
+            <div style="width: 44px; height: 44px; background: rgba(0, 180, 216, 0.1); color: var(--cyan); border-radius: 8px; display: flex; justify-content: center; align-items: center; font-size: 1.2rem;">
+              <i class="fas fa-truck-ramp-box"></i>
+            </div>
+            <h4 style="font-size: 1.05rem; color: var(--navy); margin: 0; line-height: 1.3;">
+              Zona Alat Angkat-Angkut
+              <span style="display:block; font-size: 0.8rem; color: var(--text-mid); font-weight: normal; margin-top: 2px;">(Area Loading Logistik & Forklift)</span>
+            </h4>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-mid); margin-bottom: 20px; line-height: 1.6;">
+            Area yang dikhususkan untuk aktivitas bongkar muat komponen mesin, ban, dan operasional logistik lainnya menggunakan alat berat.
+          </p>
+          <div style="background: #fef2f2; padding: 14px; border-radius: 8px; margin-bottom: 12px; border-left: 3px solid var(--red);">
+            <strong style="color: var(--red); font-size: 0.75rem; display: block; text-transform: uppercase; margin-bottom: 6px;">
+              <i class="fas fa-triangle-exclamation"></i> Potensi Bahaya
+            </strong>
+            <p style="margin: 0; font-size: 0.8rem; color: #991b1b; line-height: 1.5;">Risiko cedera akibat tertimpa muatan barang jatuh, benturan dari manuver alat berat (forklift), serta paparan kebisingan mesin pada level tinggi.</p>
+          </div>
+          <div style="background: #f0fdf4; padding: 14px; border-radius: 8px; border-left: 3px solid var(--green);">
+            <strong style="color: var(--green); font-size: 0.75rem; display: block; text-transform: uppercase; margin-bottom: 6px;">
+              <i class="fas fa-shield-halved"></i> Protokol Keselamatan
+            </strong>
+            <p style="margin: 0; font-size: 0.8rem; color: #166534; line-height: 1.5;">Peningkatan visibilitas pekerja adalah hal mutlak. Personel diwajibkan mengenakan Rompi Reflektif (High-Visibility Vest) serta Pelindung Pendengaran (Ear Muffs/Plugs).</p>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -504,6 +621,87 @@ require_once '../includes/header.php';
             <?php endforeach; ?>
         </div>
         
+      </div>
+    </div>
+    <div style="margin-top: 40px;">
+      <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;text-transform:uppercase;color:var(--navy);margin-bottom:24px; border-bottom: 2px solid var(--cyan); padding-bottom: 12px;">
+        Protokol & Distribusi Fasilitas Keselamatan Kabin
+      </h3>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 24px;">
+        
+        <div style="background: var(--white); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); border-left: 5px solid #16a34a;">
+          <div style="display: flex; gap: 16px; align-items: center; margin-bottom: 16px;">
+            <div style="width: 48px; height: 48px; background: rgba(22, 163, 74, 0.1); color: #16a34a; border-radius: 10px; display: flex; justify-content: center; align-items: center; font-size: 1.4rem;">
+              <i class="fas fa-person-running"></i>
+            </div>
+            <h4 style="font-size: 1.1rem; color: var(--navy); margin: 0; text-transform: uppercase; letter-spacing: 0.02em;">Jalur Evakuasi Penumpang Terpusat</h4>
+          </div>
+          <p style="font-size: 0.875rem; color: var(--text-mid); line-height: 1.7; margin: 0;">
+            Ditandai dengan indikator panah berwarna hijau pada lantai kabin, sistem evakuasi dirancang untuk memandu penumpang secara cepat dan teratur menuju titik-titik keluar terdekat dalam situasi darurat. Jalur utama membentang di lorong tengah (aisle) dan bercabang ke seluruh akses pintu darurat, meminimalisir kepanikan dan penumpukan penumpang.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 24px;">
+          
+          <div style="background: var(--white); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); border-top: 4px solid var(--red);">
+            <div style="display: flex; gap: 14px; align-items: center; margin-bottom: 20px;">
+              <div style="width: 44px; height: 44px; background: rgba(220, 38, 38, 0.1); color: var(--red); border-radius: 8px; display: flex; justify-content: center; align-items: center; font-size: 1.2rem;">
+                <i class="fas fa-door-open"></i>
+              </div>
+              <h4 style="font-size: 1.05rem; color: var(--navy); margin: 0; text-transform: uppercase;">Akses Keluar & Pintu Darurat Multipoint</h4>
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 12px;">
+              <div style="background: #f8fafc; padding: 12px 16px; border-radius: 8px; border-right: 3px solid var(--navy);">
+                <strong style="color: var(--navy); font-size: 0.85rem; display: block; margin-bottom: 4px;">Pintu Utama (Sisi Kiri)</strong>
+                <p style="margin: 0; font-size: 0.8rem; color: var(--text-mid);">Akses reguler di bagian depan & belakang yang berfungsi sebagai jalur evakuasi utama.</p>
+              </div>
+              <div style="background: #f8fafc; padding: 12px 16px; border-radius: 8px; border-right: 3px solid var(--red);">
+                <strong style="color: var(--red); font-size: 0.85rem; display: block; margin-bottom: 4px;">Pintu Darurat Khusus</strong>
+                <p style="margin: 0; font-size: 0.8rem; color: var(--text-mid);">Terletak di sisi kanan tengah dan bagian paling belakang, didesain mudah dibuka dari dalam.</p>
+              </div>
+              <div style="background: #f8fafc; padding: 12px 16px; border-radius: 8px; border-right: 3px solid var(--cyan);">
+                <strong style="color: var(--cyan); font-size: 0.85rem; display: block; margin-bottom: 4px;">Jendela Darurat</strong>
+                <p style="margin: 0; font-size: 0.8rem; color: var(--text-mid);">Rute alternatif di sisi kanan belakang jika akses pintu utama terhalang.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: var(--white); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); border-top: 4px solid var(--cyan);">
+            <div style="display: flex; gap: 14px; align-items: center; margin-bottom: 20px;">
+              <div style="width: 44px; height: 44px; background: rgba(0, 180, 216, 0.1); color: var(--cyan); border-radius: 8px; display: flex; justify-content: center; align-items: center; font-size: 1.2rem;">
+                <i class="fas fa-shield-heart"></i>
+              </div>
+              <h4 style="font-size: 1.05rem; color: var(--navy); margin: 0; text-transform: uppercase;">Distribusi Alat Pelindung & Keselamatan</h4>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 12px;">
+              <div style="display: flex; gap: 12px; align-items: flex-start; padding-bottom: 10px; border-bottom: 1px dashed #e2e8f0;">
+                <i class="fas fa-hammer" style="color: var(--cyan); margin-top: 4px;"></i>
+                <div>
+                  <strong style="font-size: 0.85rem; color: var(--navy); display: block;">Palu Pemecah Kaca (5 Titik)</strong>
+                  <p style="margin: 0; font-size: 0.78rem; color: var(--text-mid);">3 di sisi kiri, 2 di sisi kanan untuk memecahkan kaca saat kondisi kritis.</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 12px; align-items: flex-start; padding-bottom: 10px; border-bottom: 1px dashed #e2e8f0;">
+                <i class="fas fa-fire-extinguisher" style="color: var(--red); margin-top: 4px;"></i>
+                <div>
+                  <strong style="font-size: 0.85rem; color: var(--navy); display: block;">APAR Aktif (2 Unit)</strong>
+                  <p style="margin: 0; font-size: 0.78rem; color: var(--text-mid);">Di kabin depan (area pengemudi) dan kabin penumpang bagian belakang.</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 12px; align-items: flex-start;">
+                <i class="fas fa-kit-medical" style="color: #16a34a; margin-top: 4px;"></i>
+                <div>
+                  <strong style="font-size: 0.85rem; color: var(--navy); display: block;">Kotak P3K (First Aid Kit)</strong>
+                  <p style="margin: 0; font-size: 0.78rem; color: var(--text-mid);">Berada di kabin depan atas untuk penanganan medis dasar (P2K) selama perjalanan.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -678,6 +876,112 @@ require_once '../includes/header.php';
         *Dokumen mencakup rangkuman standar hukum K3 perusahaan.
       </p>
     </div>
+  </div>
+</section>
+
+<section class="section section-gray" id="manual-smk3">
+  <div class="container">
+    <h2 class="section-title center" style="display:block;text-align:center;">
+      Pedoman Operasional <span>SMK3</span>
+    </h2>
+    <p class="section-subtitle center" style="margin-top:12px;">
+      Rangkuman standar lingkungan kerja, identifikasi bahaya, dan prosedur evaluasi berdasarkan dokumen Manual Sistem Manajemen K3 PT. Semar Gendut Indonesia.
+    </p>
+
+    <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;text-transform:uppercase;color:var(--navy);margin-top:40px;margin-bottom:16px;">
+      1. Standar Parameter Lingkungan Kerja
+    </h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+      <div style="background: var(--white); padding: 20px; border-radius: 10px; border-top: 3px solid var(--cyan); box-shadow: var(--shadow);">
+        <i class="fas fa-temperature-half" style="font-size: 1.8rem; color: var(--cyan); margin-bottom: 12px;"></i>
+        <h4 style="font-size: 1rem; color: var(--navy); margin-bottom: 8px;">Suhu & Kelembapan</h4>
+        <p style="font-size: 0.85rem; color: var(--text-mid); margin: 0;">Suhu kabin dan area kerja wajib dipertahankan antara <strong>18°C hingga 26°C</strong>. Kelembapan udara dijaga pada rentang <strong>40% - 60%</strong>.</p>
+      </div>
+      <div style="background: var(--white); padding: 20px; border-radius: 10px; border-top: 3px solid #16a34a; box-shadow: var(--shadow);">
+        <i class="fas fa-wind" style="font-size: 1.8rem; color: #16a34a; margin-bottom: 12px;"></i>
+        <h4 style="font-size: 1rem; color: var(--navy); margin-bottom: 8px;">Sirkulasi Udara</h4>
+        <p style="font-size: 0.85rem; color: var(--text-mid); margin: 0;">Laju ventilasi udara yang disarankan adalah <strong>0,15-0,25 m/detik</strong> untuk memastikan kebutuhan oksigen bagi pengemudi dan penumpang terpenuhi.</p>
+      </div>
+      <div style="background: var(--white); padding: 20px; border-radius: 10px; border-top: 3px solid var(--red); box-shadow: var(--shadow);">
+        <i class="fas fa-ear-deaf" style="font-size: 1.8rem; color: var(--red); margin-bottom: 12px;"></i>
+        <h4 style="font-size: 1rem; color: var(--navy); margin-bottom: 8px;">Batas Kebisingan</h4>
+        <p style="font-size: 0.85rem; color: var(--text-mid); margin: 0;">Tingkat kebisingan di lingkungan kerja tidak boleh melebihi batas maksimal <strong>85 dB</strong> dalam rata-rata waktu 8 jam kerja.</p>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;text-transform:uppercase;color:var(--navy);margin-top:48px;margin-bottom:16px;">
+      2. Identifikasi Bahaya & Pengendalian Risiko
+    </h3>
+    <div class="hazard-table-wrap">
+      <table class="hazard-table">
+        <thead>
+          <tr>
+            <th style="width: 15%;">Area Kerja</th>
+            <th style="width: 25%;">Potensi Bahaya</th>
+            <th style="width: 25%;">Risiko</th>
+            <th style="width: 35%;">Tindakan Pengendalian</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Operasional Bus</strong></td>
+            <td>Kelelahan pengemudi </td>
+            <td>Kecelakaan lalu lintas </td>
+            <td>Pembatasan jam kerja maksimal 8 jam </td>
+          </tr>
+          <tr>
+            <td><strong>Bengkel</strong></td>
+            <td>Terjepit alat dan mesin</td>
+            <td>Cedera kerja </td>
+            <td>SOP kerja aman dan penggunaan APD</td>
+          </tr>
+          <tr>
+            <td><strong>Pit Service</strong></td>
+            <td>Terjatuh ke lubang servis</td>
+            <td>Cedera serius</td>
+            <td>Pemasangan pagar pengaman dan rambu peringatan</td>
+          </tr>
+          <tr>
+            <td><strong>Gudang B3</strong></td>
+            <td>Kebakaran dan paparan bahan kimia</td>
+            <td>Keracunan / kebakaran</td>
+            <td>Sirkulasi ventilasi yang baik dan penyediaan APAR</td>
+          </tr>
+          <tr>
+            <td><strong>Area Pool</strong></td>
+            <td>Tertabrak kendaraan</td>
+            <td>Cedera fisik</td>
+            <td>Pembuatan jalur pedestrian khusus dan marka jalan</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;text-transform:uppercase;color:var(--navy);margin-top:48px;margin-bottom:16px;">
+      3. Prosedur Evaluasi & Tinjauan (Check & Act)
+    </h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+      <div style="background: var(--white); padding: 20px; border-radius: 10px; border-left: 4px solid var(--navy); box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+        <strong style="color: var(--navy); font-size: 0.95rem; display: block; margin-bottom: 6px;">Inspeksi & Monitoring</strong>
+        <p style="font-size: 0.8rem; color: var(--text-mid); margin: 0;">Inspeksi rutin dilakukan terhadap kendaraan operasional, APAR, area bengkel, dan kepatuhan penggunaan APD pekerja.</p>
+      </div>
+      <div style="background: var(--white); padding: 20px; border-radius: 10px; border-left: 4px solid var(--navy); box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+        <strong style="color: var(--navy); font-size: 0.95rem; display: block; margin-bottom: 6px;">Investigasi Insiden</strong>
+        <p style="font-size: 0.8rem; color: var(--text-mid); margin: 0;">Setiap kecelakaan kerja atau <em>near miss</em> wajib dilaporkan ke bagian K3, diinvestigasi akar penyebabnya, dan diberikan tindakan pencegahan.</p>
+      </div>
+      <div style="background: var(--white); padding: 20px; border-radius: 10px; border-left: 4px solid var(--navy); box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+        <strong style="color: var(--navy); font-size: 0.95rem; display: block; margin-bottom: 6px;">Audit Internal SMK3</strong>
+        <p style="font-size: 0.8rem; color: var(--text-mid); margin: 0;">Dilakukan untuk menilai kepatuhan terhadap SOP, mengevaluasi efektivitas program keselamatan, dan menemukan kekurangan sistem.</p>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 32px;">
+      <!-- <p style="font-size: 0.85rem; color: var(--text-mid); margin-bottom: 12px;">Untuk rincian teknis selengkapnya, Anda dapat menyimpan dokumen aslinya.</p> -->
+      <!-- <a href="../assets/docs/SISTEM_MANAJEMEN_K3.pdf" target="_blank" class="btn btn-outline btn-sm" style="color: var(--navy); border-color: var(--navy);">
+        <i class="fa-solid fa-download" style="margin-right: 6px;"></i> Unduh Format PDF
+      </a> -->
+    </div>
+
   </div>
 </section>
 
