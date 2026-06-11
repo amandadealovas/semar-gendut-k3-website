@@ -36,6 +36,176 @@ html {
   scroll-behavior: smooth;
 }
 
+.pdf-link {
+    color: #0077a8; 
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
+.pdf-link:hover {
+    color: #00b4d8; 
+}
+
+.value-card {
+  text-align: center;
+  padding: 32px 20px;
+  background: var(--gray-light);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: default;
+  border: 1px solid transparent;
+}
+.value-card:hover {
+  background: var(--navy);
+  color: var(--white);
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(0, 180, 216, 0.3);
+}
+.value-card .icon-box {
+  font-size: 2.2rem;
+  margin-bottom: 14px;
+  color: var(--cyan);
+  transition: all 0.3s ease;
+}
+.value-card:hover .icon-box {
+  color: var(--white);
+  transform: scale(1.1);
+}
+.value-card h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 0.04em;
+}
+.value-card p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  opacity: 0.8;
+  margin: 0;
+}
+
+/* Tree Struktur Organisasi */
+.org-chart-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 20px 10px 40px;
+  text-align: center;
+  scrollbar-width: thin;
+  scrollbar-color: var(--cyan) var(--gray-light);
+}
+.org-chart-container::-webkit-scrollbar {
+  height: 6px;
+}
+.org-chart-container::-webkit-scrollbar-track {
+  background: var(--gray-light);
+  border-radius: 4px;
+}
+.org-chart-container::-webkit-scrollbar-thumb {
+  background-color: var(--cyan);
+  border-radius: 4px;
+}
+.tree {
+  display: inline-block;
+  margin: 0 auto;
+}
+.tree ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  position: relative;
+  padding-left: 0;
+  margin: 0;
+}
+.tree li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 12px 0 12px;
+}
+.tree li::before, .tree li::after {
+  content: '';
+  position: absolute; top: 0; right: 50%;
+  border-top: 2px solid var(--cyan);
+  width: 50%; height: 20px;
+}
+.tree li::after {
+  right: auto; left: 50%;
+  border-left: 2px solid var(--cyan);
+}
+.tree li:only-child::after, .tree li:only-child::before {
+  display: none;
+}
+.tree li:only-child { padding-top: 0; }
+.tree li:first-child::before, .tree li:last-child::after {
+  border: 0 none;
+}
+.tree li:last-child::before {
+  border-right: 2px solid var(--cyan);
+  border-radius: 0 4px 0 0;
+}
+.tree li:first-child::after {
+  border-radius: 4px 0 0 0;
+}
+.tree ul ul::before {
+  content: '';
+  position: absolute; top: 0; left: 50%;
+  border-left: 2px solid var(--cyan);
+  width: 0; height: 20px;
+  transform: translateX(-50%);
+}
+.tree .node {
+  background: var(--navy);
+  color: var(--white);
+  padding: 14px 24px;
+  border-radius: 8px;
+  display: inline-block;
+  border: 2px solid var(--cyan);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 12px rgba(10,22,40,0.12);
+  position: relative;
+  z-index: 2;
+  min-width: 180px;
+  transition: transform 0.2s;
+}
+.tree .node:hover {
+  transform: translateY(-3px);
+}
+.tree .node-subtitle {
+  display: block;
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.65);
+  text-transform: none;
+  letter-spacing: 0;
+  margin-top: 4px;
+}
+.tree .node.level-2 {
+  background: var(--navy-mid);
+  border-color: rgba(0, 180, 216, 0.5);
+}
+.tree .node.level-3 {
+  background: var(--gray-light);
+  color: var(--navy);
+  border: 1px solid rgba(10, 22, 40, 0.15);
+  border-top: 3px solid var(--cyan);
+  min-width: 160px;
+}
+.tree .node.level-4 {
+  background: var(--white);
+  color: var(--navy);
+  border: 1px solid rgba(10, 22, 40, 0.1);
+  padding: 10px 16px;
+  font-size: 0.85rem;
+  min-width: 130px;
+}
+
 body {
   font-family: 'Barlow', sans-serif;
   color: var(--text-dark);
@@ -1636,7 +1806,9 @@ footer {
 }
 
 .vm-card ul li::before {
-  content: '→ ';
+  content: '- ';
+  text-align: justify;
+  text-justify: inter-word;
   color: var(--cyan);
 }
 

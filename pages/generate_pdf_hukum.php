@@ -5,12 +5,12 @@ use Dompdf\Dompdf;
 use Dompdf\Options;
 
 $laws = [
-    ['UU No.1 Tahun 1970', 'Keselamatan Kerja', 'Undang-undang induk keselamatan kerja yang mewajibkan setiap perusahaan menerapkan standar K3 untuk melindungi tenaga kerja.'],
-    ['UU No.22 Tahun 2009', 'Lalu Lintas & Angkutan Jalan', 'Mengatur keselamatan kendaraan bermotor, batas kecepatan, izin mengemudi, tanggung jawab penyelenggara angkutan.'],
-    ['Permenaker K3', 'Keselamatan & Kesehatan Kerja', 'Peraturan Menteri Ketenagakerjaan sebagai payung perlindungan pekerja di semua sektor industri termasuk transportasi.'],
-    ['Permenhub PM 14/2016', 'K3 Bidang Transportasi', 'Secara khusus menegaskan penerapan K3 di sektor transportasi untuk meminimalisir risiko kecelakaan kerja dan operasional.'],
-    ['PP No.50 Tahun 2012', 'SMK3 (Sistem Manajemen K3)', 'Peraturan pemerintah yang mewajibkan penerapan Sistem Manajemen K3 bagi perusahaan dengan risiko tinggi.'],
-    ['Kepmenaker No.187/1999', 'Pengendalian Bahan Kimia Berbahaya', 'Mengatur penyimpanan dan penanganan B3 di tempat kerja, khususnya relevan untuk area BBM dan bahan kimia bengkel.'],
+    ['UU No.1 Tahun 1970', 'Keselamatan Kerja', 'Undang-undang induk keselamatan kerja yang mewajibkan setiap perusahaan menerapkan standar K3 untuk melindungi tenaga kerja.','https://www.peraturan.go.id/id/uu-no-1-tahun-1970'],
+    ['UU No.22 Tahun 2009', 'Lalu Lintas & Angkutan Jalan', 'Mengatur keselamatan kendaraan bermotor, batas kecepatan, izin mengemudi, tanggung jawab penyelenggara angkutan.','https://peraturan.go.id/eng/uu-no-22-tahun-2009'],
+    ['Permenaker K3', 'Keselamatan & Kesehatan Kerja', 'Peraturan Menteri Ketenagakerjaan sebagai payung perlindungan pekerja di semua sektor industri termasuk transportasi.','https://peraturan.bpk.go.id/Details/5324/pp-no-50-tahun-2012'],
+    ['Permenhub PM 14/2016', 'K3 Bidang Transportasi', 'Secara khusus menegaskan penerapan K3 di sektor transportasi untuk meminimalisir risiko kecelakaan kerja dan operasional.','https://peraturan.go.id/eng/permenhub-pm-142016'],
+    ['PP No.50 Tahun 2012', 'SMK3 (Sistem Manajemen K3)', 'Peraturan pemerintah yang mewajibkan penerapan Sistem Manajemen K3 bagi perusahaan dengan risiko tinggi.','https://www.peraturan.go.id/id/pp-no-50-tahun-2012'],
+    ['Kepmenaker No.187/1999', 'Pengendalian Bahan Kimia Berbahaya', 'Mengatur penyimpanan dan penanganan B3 di tempat kerja, khususnya relevan untuk area BBM dan bahan kimia bengkel.','https://jdih.kemnaker.go.id/peraturan/detail/2608/keputusan-menteri-nomor-187-tahun-1999'],
 ];
 
 date_default_timezone_set('Asia/Jakarta');
@@ -25,7 +25,6 @@ $html = '
     <meta charset="UTF-8">
     <title>Laporan Landasan Hukum K3</title>
     <style>
-        /* Sisipkan isi file CSS ke sini secara otomatis */
         ' . $css_content . '
     </style>
 </head>
@@ -52,7 +51,7 @@ $html = '
         foreach ($laws as $law) {
             $html .= '
             <tr>
-                <td class="kode">' . $law[0] . '</td>
+                <td class="kode"><a href="' . $law[3] . '" class="pdf-link">' . $law[0] . '</a> </td>
                 <td class="nama">' . $law[1] . '</td>
                 <td>' . $law[2] . '</td>
             </tr>';
