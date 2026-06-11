@@ -1080,6 +1080,107 @@ require_once '../includes/header.php';
   </div>
 </section>
 
+<section class="section section-gray" id="checklist-audit" style="border-top: 1px solid rgba(10,22,40,0.05);">
+  <div class="container">
+    <h2 class="section-title">Check list Penerapan <span>SMK3</span></h2>
+    <p class="section-subtitle" style="margin-top:12px;">Evaluasi kepatuhan 12 Elemen Kriteria Sistem Manajemen K3 PT Semar Gendut Indonesia berdasarkan PP No. 50 Tahun 2012.</p>
+
+    
+
+    <?php
+    // MASTER DATA MULTIDIMENSIONAL ARRAY BERDASARKAN 12 ELEMEN DOKUMEN ANDA
+    $audit_elements = [
+      '1. Pembangunan dan Pemeliharaan Komitmen' => [
+        ['1.1.1', 'Terdapat kebijakan K3 yang tertulis bertanggal, ditandatangani oleh pengusaha atau pengurus, secara jelas menyatakan tujuan dan sasaran K3 serta komitmen terhadap peningkatan K3.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.'],
+        ['1.1.2', 'Kebijakan disusun oleh pengusaha dan/atau pengurus setelah melali proses konsultasi dengan wakil tenaga kerja.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.'],
+        ['1.1.3', 'Perusahaan mengkomunikasikan, kebijakan, K3 kepada seluruh tenaga kerja, tamu, kontraktor, pelanggan, dan pemasok dengan tata cara yang tepat.', 'Sesuai (V)', 'Kebijakan K3 telah terpasang di papan informasi pool utama, workshop, dan disosialisasikan via web.'],
+        ['1.4.3', 'Perusahaan telah membentuk P2K3 sesuai dengan peraturan perundang-undangan.', 'Sesuai (V)', 'P2K3 SGI resmi dibentuk dan disahkan oleh Disnaker setempat.']
+      ],
+      '2. Pembuatan dan Pendokumentasian Rencana K3' => [
+        ['2.1.1', 'Terdapat prosedur terdokumentasi untuk identifikasi potensi bahaya, penelitian, dan pengendalian risiko K3.', 'Sesuai (V)', 'Prosedur HIRADC tercantum lengkap di BAB II Rencana K3 Perusahaan.'],
+        ['2.2.1', 'Manual SMK3 meliputi kebijakan, tujuan, rencana, prosedur SMK3, instruksi kerja, formulir, catatan dan tanggung jawab serta wewenang tanggung jawab K3 untuk semua tingkatan dalam perusahaan.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '3. Pengendalian Perancangan dan Peninjauan Kontrak' => [
+        ['3.1.1', 'Prosedur yang terdokumentasi mempertimbangkan identifikasi potensi bahaya, penilaian, dan pengendalian risiko yang dilakukan pada tahap perancangan dan modifikasi.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '4. Pengendalian Dokumen' => [
+        ['4.1.1', 'Dokumen K3 Mempunyai identifikasi status, wewenang, tanggal pengeluaran dan tanggal modifikasi.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '5. Penilaian dan Pengendalian Produk' => [
+        ['5.1.1', 'Terdapat prosedur yang terdokumentasi yang dapat menjamin bahwa spesifikasi teknik dan informasi lain yang relevan dengan K3 telah diperiksa sebelum keputusan untuk membeli.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan air pemeriksaan pra-pembelian barang logistik.']
+      ],
+      '6. Keamanan Bekerja Berdasarkan SMK3' => [
+        ['6.1.7', 'Alat pelindung diri disediakan sesuai kebutuhan dan digunakan secara benar serta selalu dipelihara dalam kondisi layak pakai.', 'Sesuai (V)', 'Penyediaan APD mekanik dan rompi reflektif awak bus terpenuhi 100% dan terawat.'],
+        ['6.5.8', 'Apabila diperlukan dilakukan penerapan sistem penguncian pengoperasian (lock out system) untuk mencegah agar sarana produksi tidak dihidupkan sebelum saatnya.', 'Sesuai (V)', 'SOP LOTO wajib diterapkan saat perbaikan mekanikal berat di bawah kolong bus (pit service).'],
+        ['6.7.1', 'Keadaan darurat yang potensial di dalam dan/atau di luar tempat kerja telah diidentifikasi dan prosedur keadaan darurat telah didokumentasikan dan diinformasikan agar diketahui oleh seluruh orang yang ada di tempat kerja.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '7. Standar Pemantauan' => [
+        ['7.2.1', 'Pemantauan/ pengukuran lingkungan kerja dilaksanakan secara teratur dan hasilnya didokumentasikan, dipelihara dan digunakan untuk penilaian dan pengendalian risiko.', 'Sesuai (V)', 'Pengukuran kebisingan, getaran forklift, dan kadar lux cahaya tanggap kerja dilakukan tiap 6 bulan sekali.'],
+        ['7.4.1', 'Dilakukan pemantauan kesehatan tenaga kerja yang bekerja pada tempat kerja yang mengandung potensi bahaya tinggi sesuai dengan peraturan perundang-undangan.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '8. Pelaporan dan Perbaikan Kekurangan' => [
+        ['8.1.1', 'Terdapat prosedur pelaporan bahaya yang berhubungan dengan K3 dan prosedur ini diketahui oleh tenaga kerja.', 'Sesuai (V)', 'Alur pelaporan insiden & near miss wajib dilaporkan dalam waktu maksimal 1x24 jam.']
+      ],
+      '9. Pengelolaan Material dan Perpindahannya' => [
+        ['9.3.1', 'Perusahaan telah mendokumentasikan dan menerapkan prosedur mengenai penyimpanan, penanganan dan pemindahan BKB sesuai dengan persyaratan peraturan perundang-undangan, standar dan pedoman teknis yang relevan.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '10. Pengumpulan Dan Penggunaan Data' => [
+        ['10.1.1', 'Pengusaha atau pengurus telah mendokumentasikan dan menerapkan prosedur pelaksanaan identifikasi, pengumpulan, pengarsipan, pemeliharaan, penyimpanan dan penggantian catatan K3.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan penyimpanan berkas kontrol arsip K3.']
+      ],
+      '11. Pemeriksaan SMK3' => [
+        ['11.1.1', 'Audit internal SMK3 yang terjadwal dilaksanakan untuk memeriksa kesesuaian kegiatan perencanaan dan untuk menentukan efektifitas kegiatan tersebut.', 'Sesuai (V)', 'Audit internal SMK3 dijadwalkan secara berkala minimal 2 kali dalam satu tahun.']
+      ],
+      '12. Pengembangan Keterampilan dan Kemampuan' => [
+        ['12.3.2', 'Pelatihan K3 diberikan kepada tenaga kerja termasuk tenaga kerja baru dan yang dipindahkan agar mereka dapat melaksanakan tugasnya secara aman.', 'Sesuai (V)', 'Terselenggara terstruktur melalui program orientasi lapangan kerja (Safety Induction) bagi pramuniaga baru.'],
+        ['12.4.1', 'Terdapat prosedur yang menetapkan persyaratan untuk memberikan taklimat (briefing) kepada pengunjung dan mitra kerja guna menjamin K3.', 'Sesuai (V)', 'SOP taklimat keselamatan aktif dijalankan oleh petugas sekuriti di pos gerbang masuk pool utama.'],
+        ['12.5.1', 'Perusahaan mempunyai sistem yang menjamin kepatuhan terhadap persyaratan lisensi atau kualifikasi sesuai dengan peraturan perundangan untuk melaksanakan tugas khusus, melaksanakan pekerjaan atau mengoperasikan peralatan.', 'Sesuai (V)', 'Seluruh pengemudi wajib memiliki SIM BI/BII Umum aktif dan operator forklift memiliki SIO resmi Disnaker.']
+      ]
+    ];
+    ?>
+
+    <div style="margin-top: 32px;">
+      <?php foreach ($audit_elements as $element_name => $criteria_rows): ?>
+        <h4 style="font-family:'Barlow Condensed',sans-serif; font-size:1.15rem; text-transform:uppercase; color:var(--navy); margin:28px 0 12px; border-left: 3px solid var(--red); padding-left: 8px;">
+          <?= $element_name ?>
+        </h4>
+        
+        <div class="hazard-table-wrap" style="box-shadow:var(--shadow); border-radius:6px; overflow:hidden; margin-bottom: 16px;">
+          <table class="hazard-table">
+            <thead>
+              <tr>
+                <th style="width:80px; text-align:center;">No. Kriteria</th>
+                <th>Kriteria Audit Penerapan SMK3</th>
+                <th style="width:110px; text-align:center;">Penilaian</th>
+                <th>Keterangan Bukti Implementasi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php foreach ($criteria_rows as $row): ?>
+              <tr>
+                <td style="text-align:center; font-weight:700; color:var(--navy);"><?= $row[0] ?></td>
+                <td style="font-size:0.85rem; line-height:1.5; color:var(--text-dark);"><?= $row[1] ?></td>
+                <td style="text-align:center;">
+                  <span style="background:#e8f8f0; color:#2ecc71; padding:4px 8px; border-radius:4px; font-weight:700; font-size:0.75rem; text-transform:uppercase; border:1px solid rgba(46,204,113,0.15);">
+                    <i class="fa-solid fa-check" style="margin-right:2px;"></i> <?= $row[2] ?>
+                  </span>
+                </td>
+                <td style="font-size:0.8rem; color:var(--text-mid); font-style:italic;"><?= $row[3] ?></td>
+              </tr>
+              <?php endforeach; ?>
+            </tbody>
+          </table>
+        </div>
+      <?php endforeach; ?>
+    </div>
+
+    <div style="margin-top:40px; text-align:center;">
+      <a href="generate_pdf_audit.php" target="_blank" class="btn btn-navy btn-lg" style="box-shadow:var(--shadow);">
+        <i class="fa-solid fa-file-pdf" style="margin-right:8px;"></i> Cetak Full Check list Penerapan SMK3 (PDF)
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="section section-gray" id="manual-smk3">
   <div class="container">
     <h2 class="section-title center" style="display:block;text-align:center;">
