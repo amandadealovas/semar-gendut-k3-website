@@ -17,6 +17,47 @@ require_once '../includes/header.php';
   </div>
 </section>
 
+<section class="section" style="padding-bottom: 0;">
+  <div class="container">
+    <h2 class="section-title">Target &amp; KPI K3 <span>Tahun 2026</span></h2>
+    <p class="section-subtitle" style="margin-top:12px;">Metrik performa keselamatan kerja PT. Semar Gendut Indonesia yang dipantau secara real-time demi mencapai operational excellence.</p>
+    
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:36px;">
+      <div style="background:var(--white);border-radius:12px;padding:28px;border:1px solid rgba(10,22,40,0.06);box-shadow:var(--shadow);text-align:center;transition:transform 0.3s, box-shadow 0.3s;cursor:default;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='var(--shadow-lg)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow)';">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:800;color:var(--navy);line-height:1.1;display:flex;align-items:center;justify-content:center;gap:8px;">
+          <i class="fa-solid fa-shield-halved" style="color:var(--green);font-size:1.8rem;"></i> 0
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:1rem;color:var(--cyan);font-weight:700;margin:12px 0 6px;">Zero Accident</div>
+        <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">Target tren penurunan hingga 100% dari baseline.</p>
+      </div>
+      
+      <div style="background:var(--white);border-radius:12px;padding:28px;border:1px solid rgba(10,22,40,0.06);box-shadow:var(--shadow);text-align:center;transition:transform 0.3s, box-shadow 0.3s;cursor:default;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='var(--shadow-lg)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow)';">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:800;color:var(--navy);line-height:1.1;display:flex;align-items:center;justify-content:center;gap:8px;">
+          <i class="fa-solid fa-hard-hat" style="color:var(--yellow);font-size:1.8rem;"></i> 100%
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:1rem;color:var(--cyan);font-weight:700;margin:12px 0 6px;">Kepatuhan APD</div>
+        <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">Hasil dari audit berkala dan pengawasan harian di zona biru.</p>
+      </div>
+
+      <div style="background:var(--white);border-radius:12px;padding:28px;border:1px solid rgba(10,22,40,0.06);box-shadow:var(--shadow);text-align:center;transition:transform 0.3s, box-shadow 0.3s;cursor:default;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='var(--shadow-lg)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow)';">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:800;color:var(--navy);line-height:1.1;display:flex;align-items:center;justify-content:center;gap:8px;">
+          <i class="fa-solid fa-chart-line" style="color:var(--cyan);font-size:1.8rem;"></i> &lt; 0.5
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:1rem;color:var(--cyan);font-weight:700;margin:12px 0 6px;">Nilai LTIFR Target</div>
+        <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">Lost Time Injury Frequency Rate standar internasional.</p>
+      </div>
+
+      <div style="background:var(--white);border-radius:12px;padding:28px;border:1px solid rgba(10,22,40,0.06);box-shadow:var(--shadow);text-align:center;transition:transform 0.3s, box-shadow 0.3s;cursor:default;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='var(--shadow-lg)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow)';">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:800;color:var(--navy);line-height:1.1;display:flex;align-items:center;justify-content:center;gap:8px;">
+          <i class="fa-solid fa-square-check" style="color:var(--green);font-size:1.8rem;"></i> 100%
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:1rem;color:var(--cyan);font-weight:700;margin:12px 0 6px;">Kepatuhan SOP</div>
+        <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">Verifikasi berkala melalui mekanisme internal audit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="apd">
   <div class="container">
     <h2 class="section-title">Standar <span>APD</span></h2>
@@ -846,6 +887,166 @@ require_once '../includes/header.php';
   </div>
 </section>
 
+<section class="section" style="padding-top: 0;">
+  <div class="container">
+    <h2 class="section-title">Video Panduan <span>Keselamatan K3</span></h2>
+    <p class="section-subtitle" style="margin-top:12px;">Tonton seri video simulasi dan panduan taktis untuk memahami langkah penyelamatan, pencegahan, dan tanggap darurat K3 PT SGI.</p>
+    
+    <div class="video-playlist-container" style="margin-top:36px;">
+      <!-- Main Player -->
+      <div style="background:var(--white); padding:20px; border-radius:16px; border:1px solid rgba(10,22,40,0.06); box-shadow:var(--shadow);">
+        <div style="position:relative; width:100%; border-radius:12px; overflow:hidden; box-shadow:var(--shadow); background:#000; aspect-ratio:16/9;">
+          <video id="main-video-player" controls style="width:100%; height:100%; display:block;">
+            <source src="../assets/videos/kecelakaan_kerja.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutar video HTML5.
+          </video>
+        </div>
+        <div style="margin-top:20px;">
+          <span id="active-video-badge" style="background:rgba(220,38,38,0.1); color:var(--red); font-size:0.75rem; font-weight:700; padding:5px 12px; border-radius:100px; border:1px solid rgba(220,38,38,0.15); text-transform:uppercase; letter-spacing:0.05em; display:inline-block; margin-bottom:12px;">Tanggap Darurat</span>
+          <h3 id="active-video-title" style="font-family:'Barlow Condensed',sans-serif; font-size:1.8rem; text-transform:uppercase; color:var(--navy); margin-bottom:12px;">1. Prosedur Penanganan Awal &amp; Evakuasi Korban</h3>
+          <p id="active-video-desc" style="font-size:0.875rem; color:var(--text-mid); line-height:1.7; margin-bottom:0;">
+            Video edukasi ini memuat prosedur praktis K3 ketika terjadi insiden darurat, cara mengevakuasi korban dengan aman, meminimalisir risiko korsleting kelistrikan armada, serta alur koordinasi dengan petugas medis dan kepolisian.
+          </p>
+        </div>
+      </div>
+
+      <!-- Playlist Sidebar -->
+      <div style="background:var(--white); padding:20px; border-radius:16px; border:1px solid rgba(10,22,40,0.06); box-shadow:var(--shadow); display:flex; flex-direction:column; gap:16px; max-height:560px; overflow-y:auto;">
+        <h4 style="font-family:'Barlow Condensed',sans-serif; font-size:1.2rem; text-transform:uppercase; color:var(--navy); border-bottom:2px solid var(--cyan); padding-bottom:8px; margin-bottom:4px; display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-list-ul" style="color:var(--cyan);"></i> Daftar Putar K3
+        </h4>
+        
+        <div class="playlist-items-wrapper" style="display:flex; flex-direction:column; gap:12px;">
+          <!-- Item 1 -->
+          <div class="playlist-item active" onclick="changeVideo(0)" id="playlist-item-0" style="padding:12px; border-radius:8px; border:2px solid var(--cyan); background:rgba(0,180,216,0.04); cursor:pointer; display:flex; gap:12px; transition:all 0.2s;">
+            <div style="position:relative; width:90px; height:60px; background:#1e272e; border-radius:4px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="fa-solid fa-play" style="color:var(--white); font-size:14px; opacity:0.8;"></i>
+            </div>
+            <div>
+              <span style="font-size:0.65rem; color:var(--red); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;">Tanggap Darurat</span>
+              <h5 style="font-family:'Barlow',sans-serif; font-size:0.82rem; font-weight:700; color:var(--navy); line-height:1.2; margin:0;">Prosedur Penanganan &amp; Evakuasi</h5>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="playlist-item" onclick="changeVideo(1)" id="playlist-item-1" style="padding:12px; border-radius:8px; border:2px solid transparent; background:var(--gray-light); cursor:pointer; display:flex; gap:12px; transition:all 0.2s;" onmouseover="this.style.borderColor='rgba(0,180,216,0.3)';" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.borderColor='transparent';">
+            <div style="position:relative; width:90px; height:60px; background:#1e272e; border-radius:4px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="fa-solid fa-play" style="color:var(--white); font-size:14px; opacity:0.8;"></i>
+            </div>
+            <div>
+              <span style="font-size:0.65rem; color:var(--yellow); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;">Proteksi Kebakaran</span>
+              <h5 style="font-family:'Barlow',sans-serif; font-size:0.82rem; font-weight:700; color:var(--navy); line-height:1.2; margin:0;">Penggunaan APAR &amp; Titik Api</h5>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="playlist-item" onclick="changeVideo(2)" id="playlist-item-2" style="padding:12px; border-radius:8px; border:2px solid transparent; background:var(--gray-light); cursor:pointer; display:flex; gap:12px; transition:all 0.2s;" onmouseover="this.style.borderColor='rgba(0,180,216,0.3)';" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.borderColor='transparent';">
+            <div style="position:relative; width:90px; height:60px; background:#1e272e; border-radius:4px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="fa-solid fa-play" style="color:var(--white); font-size:14px; opacity:0.8;"></i>
+            </div>
+            <div>
+              <span style="font-size:0.65rem; color:var(--cyan); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;">Kepatuhan APD</span>
+              <h5 style="font-family:'Barlow',sans-serif; font-size:0.82rem; font-weight:700; color:var(--navy); line-height:1.2; margin:0;">Kewajiban APD Bengkel &amp; Pool</h5>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="playlist-item" onclick="changeVideo(3)" id="playlist-item-3" style="padding:12px; border-radius:8px; border:2px solid transparent; background:var(--gray-light); cursor:pointer; display:flex; gap:12px; transition:all 0.2s;" onmouseover="this.style.borderColor='rgba(0,180,216,0.3)';" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.borderColor='transparent';">
+            <div style="position:relative; width:90px; height:60px; background:#1e272e; border-radius:4px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="fa-solid fa-play" style="color:var(--white); font-size:14px; opacity:0.8;"></i>
+            </div>
+            <div>
+              <span style="font-size:0.65rem; color:var(--green); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;">Administrasi K3</span>
+              <h5 style="font-family:'Barlow',sans-serif; font-size:0.82rem; font-weight:700; color:var(--navy); line-height:1.2; margin:0;">Alur Pelaporan &amp; Analisis HIRARC</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JavaScript to Drive the Playlist Interaction -->
+<script>
+  const videoData = [
+    {
+      src: "../assets/videos/kecelakaan_kerja.mp4",
+      title: "1. Prosedur Penanganan Awal & Evakuasi Korban",
+      badge: "Tanggap Darurat",
+      badgeColor: "var(--red)",
+      badgeBg: "rgba(220,38,38,0.1)",
+      badgeBorder: "rgba(220,38,38,0.15)",
+      desc: "Video edukasi ini memuat prosedur praktis K3 ketika terjadi insiden darurat, cara mengevakuasi korban dengan aman, meminimalisir risiko korsleting kelistrikan armada, serta alur koordinasi dengan petugas medis dan kepolisian."
+    },
+    {
+      src: "../assets/videos/kecelakaan_kerja2.mp4",
+      title: "2. Penggunaan APAR & Pemadaman Titik Api",
+      badge: "Proteksi Kebakaran",
+      badgeColor: "var(--yellow)",
+      badgeBg: "rgba(245,158,11,0.1)",
+      badgeBorder: "rgba(245,158,11,0.15)",
+      desc: "Panduan praktis mengoperasikan APAR (Alat Pemadam Api Ringan) jenis dry chemical powder dan CO2 saat mendeteksi percikan api atau kepulan asap pada area mesin bus."
+    },
+    {
+      src: "../assets/videos/kecelakaan_kerja3.mp4",
+      title: "3. Kewajiban Penggunaan APD di Area Bengkel & Pool",
+      badge: "Kepatuhan APD",
+      badgeColor: "var(--cyan)",
+      badgeBg: "rgba(0,180,216,0.1)",
+      badgeBorder: "rgba(0,180,216,0.15)",
+      desc: "Edukasi visual terstruktur mengenai pentingnya penggunaan alat pelindung kepala (helmet), safety shoes, rompi reflektif tingkat keterlihatan tinggi, dan kacamata pelindung selama masa perawatan armada."
+    },
+    {
+      src: "../assets/videos/kecelakaan_kerja4.mp4",
+      title: "4. Alur Pelaporan Insiden & Analisis HIRARC",
+      badge: "Administrasi K3",
+      badgeColor: "var(--green)",
+      badgeBg: "rgba(22,163,74,0.1)",
+      badgeBorder: "rgba(22,163,74,0.15)",
+      desc: "Tatacara mendokumentasikan kecelakaan kerja dan near-miss, alur pelaporan berjenjang 1x24 jam ke komite P2K3, serta investigasi penyebab akar masalah guna memperbarui lembar analisis risiko HIRARC."
+    }
+  ];
+
+  function changeVideo(index) {
+    const player = document.getElementById("main-video-player");
+    const badge = document.getElementById("active-video-badge");
+    const title = document.getElementById("active-video-title");
+    const desc = document.getElementById("active-video-desc");
+
+    // Update Player Source
+    player.src = videoData[index].src;
+    player.load();
+    player.play();
+
+    // Update Details
+    badge.innerText = videoData[index].badge;
+    badge.style.color = videoData[index].badgeColor;
+    badge.style.backgroundColor = videoData[index].badgeBg;
+    badge.style.borderColor = videoData[index].badgeBorder;
+    title.innerText = videoData[index].title;
+    desc.innerText = videoData[index].desc;
+
+    // Update Playlist Item Active Styling
+    const playlistItems = document.querySelectorAll(".playlist-item");
+    playlistItems.forEach((item, idx) => {
+      if (idx === index) {
+        item.classList.add("active");
+        item.setAttribute("data-active", "true");
+        item.style.borderColor = "var(--cyan)";
+        item.style.background = "rgba(0,180,216,0.04)";
+      } else {
+        item.classList.remove("active");
+        item.setAttribute("data-active", "false");
+        item.style.borderColor = "transparent";
+        item.style.background = "var(--gray-light)";
+      }
+    });
+  }
+  
+  // Set initial active state correctly
+  document.getElementById("playlist-item-0").setAttribute("data-active", "true");
+</script>
+
 <section class="section">
   <div class="container">
     <h2 class="section-title center" style="display:block;text-align:center;">Landasan <span>Hukum K3</span></h2>
@@ -996,6 +1197,64 @@ require_once '../includes/header.php';
         <a href="kontak.php" class="btn btn-primary btn-lg">Hubungi Tim K3</a>
         <a href="layanan.php" class="btn btn-outline btn-lg">Lihat Layanan</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-gray" id="pelatihan">
+  <div class="container">
+    <h2 class="section-title">Matriks Pelatihan <span>K3 SGI</span></h2>
+    <p class="section-subtitle" style="margin-top:12px;">Investasi berkelanjutan untuk membangun pengetahuan, keterampilan, dan sikap kerja aman bagi SDM transportasi.</p>
+    
+    <div class="hazard-table-wrap" style="margin-top:36px;">
+      <table class="hazard-table">
+        <thead>
+          <tr>
+            <th>Jenis Pelatihan</th>
+            <th>Peserta Wajib</th>
+            <th>Frekuensi</th>
+            <th>Durasi</th>
+            <th>Penyelenggara</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Safety Induction</strong></td>
+            <td>Semua karyawan baru</td>
+            <td>Setiap ada angkatan baru</td>
+            <td>4 Jam</td>
+            <td>Tim Internal K3</td>
+          </tr>
+          <tr>
+            <td><strong>Defensive Driving</strong></td>
+            <td>Semua pengemudi armada</td>
+            <td>1x Per Tahun</td>
+            <td>8 Jam</td>
+            <td>Lembaga Eksternal</td>
+          </tr>
+          <tr>
+            <td><strong>Penggunaan APAR</strong></td>
+            <td>Seluruh personel pool &amp; staf</td>
+            <td>2x Per Tahun</td>
+            <td>3 Jam</td>
+            <td>Tim Internal K3</td>
+          </tr>
+          <tr>
+            <td><strong>Sistem LOTO (Lock Out Tag Out)</strong></td>
+            <td>Mekanik &amp; Tim Maintenance</td>
+            <td>1x Per Tahun</td>
+            <td>4 Jam</td>
+            <td>Tim Internal K3</td>
+          </tr>
+          <tr>
+            <td><strong>Operasi Forklift Terlisensi</strong></td>
+            <td>Operator khusus forklift</td>
+            <td>Sesuai masa berlaku SIM</td>
+            <td>16 Jam</td>
+            <td>Disnaker</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
