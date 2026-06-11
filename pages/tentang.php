@@ -18,7 +18,7 @@ require_once '../includes/header.php';
 </section>
 
 <!-- ABOUT INTRO -->
-<section class="section" id="sejarah">
+<<section class="section" id="sejarah">
   <div class="container">
     <div class="about-intro-grid">
       <div>
@@ -54,12 +54,9 @@ require_once '../includes/header.php';
             foreach ($company_info as $info): ?>
 
               <div style="display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,0.07);">
-
-                <!-- ICON DIGANTI -->
                 <span style="font-size:1.2rem;flex-shrink:0;margin-top:2px;">
                   <i class="fas <?= $info[0] ?>" style="color:#ffffff;"></i>
                 </span>
-
                 <div>
                   <div style="font-size:0.72rem;color:rgba(255,255,255,0.4);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:2px;">
                     <?= $info[1] ?>
@@ -68,7 +65,6 @@ require_once '../includes/header.php';
                     <?= $info[2] ?>
                   </div>
                 </div>
-
               </div>
             <?php endforeach; ?>
           </div>
@@ -78,7 +74,6 @@ require_once '../includes/header.php';
   </div>
 </section>
 
-<!-- VISION MISSION -->
 <section class="section section-gray" id="visi">
   <div class="container">
     <h2 class="section-title center" style="display:block;text-align:center;">
@@ -86,61 +81,34 @@ require_once '../includes/header.php';
     </h2>
 
     <div class="vision-mission-grid">
-
-      <!-- VISI -->
       <div class="vm-card">
-        <h3>
-          <i class="fas fa-bullseye" style="color:#ffffff;margin-right:8px;"></i>
-          Visi
-        </h3>
+        <h3><i class="fas fa-bullseye" style="color:#ffffff;margin-right:8px;"></i> Visi</h3>
         <p>
           Menjadi pemimpin ekosistem perjalanan darat premium di Indonesia dengan menghadirkan kemewahan, kenyamanan,
           <em>hospitality</em> unggul, dan standar keselamatan terbaik yang diakui secara nasional.
         </p>
       </div>
 
-      <!-- MISI -->
       <div class="vm-card">
-        <h3>
-          <i class="fas fa-rocket" style="color:#ffffff;margin-right:8px;"></i>
-          Misi
-        </h3>
-
+        <h3><i class="fas fa-rocket" style="color:#ffffff;margin-right:8px;"></i> Misi</h3>
         <ul>
-          <li>
-            <i class="fas fa-check-circle" style="color:#ffffff;margin-right:8px;"></i>
-            Menyediakan armada dan layanan transportasi darat berstandar internasional dengan desain modern, privasi tinggi, dan kenyamanan setara perjalanan udara kelas satu
-          </li>
-
-          <li>
-            <i class="fas fa-check-circle" style="color:#ffffff;margin-right:8px;"></i>
-            Membangun budaya pelayanan yang ramah, profesional, dan personal melalui pelatihan berkelanjutan serta penyediaan pengalaman yang disesuaikan
-          </li>
-
-          <li>
-            <i class="fas fa-check-circle" style="color:#ffffff;margin-right:8px;"></i>
-            Mengembangkan ekosistem perjalanan darat melalui kolaborasi strategis, titik layanan eksklusif, dan adopsi teknologi untuk kemudahan dan keselamatan
-          </li>
-
-          <li>
-            <i class="fas fa-check-circle" style="color:#ffffff;margin-right:8px;"></i>
-            Menegakkan budaya Keselamatan dan Kesehatan Kerja (K3) sebagai nilai inti yang tidak dapat dikompromikan dalam setiap aspek operasional
-          </li>
+          <li>Menyediakan armada dan layanan transportasi darat berstandar internasional dengan desain modern, privasi tinggi, dan kenyamanan setara perjalanan udara kelas satu</li>
+          <li>Membangun budaya pelayanan yang ramah, profesional, dan personal melalui pelatihan berkelanjutan serta penyediaan pengalaman yang disesuaikan</li>
+          <li>Mengembangkan ekosistem perjalanan darat melalui kolaborasi strategis, titik layanan eksklusif, dan adopsi teknologi untuk kemudahan dan keselamatan</li>
+          <li>Menegakkan budaya Keselamatan dan Kesehatan Kerja (K3) sebagai nilai inti yang tidak dapat dikompromikan dalam setiap aspek operasional</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- VALUES -->
 <section class="section">
   <div class="container">
     <h2 class="section-title center" style="display:block;text-align:center;">
       Nilai-Nilai <span>Perusahaan</span>
     </h2>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:40px;">
-
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;margin-top:48px;">
       <?php
       $values = [
         ['fa-shield-halved', 'Keselamatan', 'Safety First — tidak ada target bisnis yang lebih penting dari keselamatan manusia'],
@@ -152,88 +120,30 @@ require_once '../includes/header.php';
       ];
 
       foreach ($values as $v): ?>
-
-        <div class="value-card"
-          style="text-align:center;padding:24px 16px;background:var(--gray-light);border-radius:10px;transition:all 0.3s;"
-          onmouseover="this.style.background='var(--navy)';this.style.color='white'"
-          onmouseout="this.style.background='var(--gray-light)';this.style.color=''">
-
-          <!-- ICON -->
-          <div class="icon-box" style="font-size:2.2rem;margin-bottom:10px;">
-            <i class="fas <?= $v[0] ?>"></i>
-          </div>
-
-          <h4 style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;text-transform:uppercase;margin-bottom:8px;color:inherit;">
-            <?= $v[1] ?>
-          </h4>
-
-          <p style="font-size:0.8rem;line-height:1.6;color:inherit;opacity:0.7;">
-            <?= $v[2] ?>
-          </p>
-
+        <div class="value-card">
+          <div class="icon-box"><i class="fas <?= $v[0] ?>"></i></div>
+          <h4><?= $v[1] ?></h4>
+          <p><?= $v[2] ?></p>
         </div>
-
       <?php endforeach; ?>
     </div>
   </div>
 </section>
 
-<!-- ORGANIZATIONAL STRUCTURE -->
-<section class="section section-gray" id="struktur">
+<section class="section">
   <div class="container">
-    <h2 class="section-title center" style="display:block;text-align:center;">Struktur <span>Organisasi</span></h2>
-    <div style="max-width:800px;margin:40px auto 0;">
-      <!-- Visual org chart -->
-      <div style="display:flex;flex-direction:column;align-items:center;gap:0;">
-        <!-- Top -->
-        <div style="background:var(--navy);color:var(--white);border-radius:8px;padding:14px 28px;text-align:center;border:2px solid var(--cyan);min-width:200px;">
-          <div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;text-transform:uppercase;color:var(--cyan);">Dewan Direksi</div>
-          <div style="font-size:0.75rem;color:rgba(255,255,255,0.5);">Board of Directors</div>
-        </div>
-        <div style="width:2px;height:24px;background:var(--cyan);"></div>
-        <!-- Level 2 -->
-        <div style="background:var(--navy-mid);color:var(--white);border-radius:8px;padding:12px 24px;text-align:center;border:1px solid rgba(0,180,216,0.4);min-width:200px;">
-          <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.95rem;text-transform:uppercase;color:var(--cyan);">Direktur Utama</div>
-        </div>
-        <div style="width:2px;height:20px;background:var(--navy-light);"></div>
-        <!-- Level 3 - Two branches -->
-        <div style="display:flex;gap:60px;align-items:flex-start;position:relative;">
-          <div style="position:absolute;top:0;left:calc(50% - 30px);width:60px;height:2px;background:var(--navy-light);"></div>
-          <div style="display:flex;flex-direction:column;align-items:center;">
-            <div style="width:2px;height:20px;background:var(--navy-light);"></div>
-            <div style="background:var(--gray-light);border-radius:8px;padding:12px 20px;text-align:center;border:1px solid rgba(10,22,40,0.1);min-width:160px;">
-              <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.9rem;text-transform:uppercase;color:var(--navy);">Dir. Operasional</div>
-            </div>
-            <div style="width:2px;height:16px;background:var(--navy-light);"></div>
-            <div style="display:flex;gap:12px;">
-              <?php foreach (['Manajer Pool', 'Manajer Armada', 'Manajer Rute'] as $m): ?>
-                <div style="background:var(--white);border-radius:6px;padding:8px 12px;text-align:center;border:1px solid rgba(10,22,40,0.1);min-width:100px;">
-                  <div style="font-size:0.72rem;color:var(--navy);font-weight:600;"><?= $m ?></div>
-                </div>
-              <?php endforeach; ?>
-            </div>
-          </div>
-          <div style="display:flex;flex-direction:column;align-items:center;">
-            <div style="width:2px;height:20px;background:var(--navy-light);"></div>
-            <div style="background:var(--gray-light);border-radius:8px;padding:12px 20px;text-align:center;border:1px solid rgba(10,22,40,0.1);min-width:160px;">
-              <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.9rem;text-transform:uppercase;color:var(--navy);">Dir. K3 &amp; SDM</div>
-            </div>
-            <div style="width:2px;height:16px;background:var(--navy-light);"></div>
-            <div style="display:flex;gap:12px;">
-              <?php foreach (['Ka. K3', 'Ka. SDM', 'Ka. Pelatihan'] as $m): ?>
-                <div style="background:var(--white);border-radius:6px;padding:8px 12px;text-align:center;border:1px solid rgba(10,22,40,0.1);min-width:100px;">
-                  <div style="font-size:0.72rem;color:var(--navy);font-weight:600;"><?= $m ?></div>
-                </div>
-              <?php endforeach; ?>
-            </div>
-          </div>
-        </div>
-      </div>
+    <h2 class="section-title center" style="display:block;text-align:center;">Struktur Organisasi <span>K3 (P2K3)</span></h2>
+    <p class="section-subtitle center" style="margin-top:12px;">Garis komando dan tanggung jawab Keselamatan & Kesehatan Kerja (SMK3) di PT. Semar Gendut Indonesia.</p>
+    
+    <div style="margin-top: 40px; text-align: center; background: var(--white); padding: 24px; border-radius: 12px; box-shadow: var(--shadow);">
+      <img src="../assets/images/struktur_organisasi.png" alt="Struktur Organisasi K3 PT Semar Gendut Indonesia" style="max-width: 100%; height: auto; border-radius: 8px;">
+      
+      <p style="font-size: 0.85rem; color: var(--text-mid); margin-top: 20px; line-height: 1.6; max-width: 800px; margin-left: auto; margin-right: auto;">
+        <i>*Komando Utama dipimpin oleh Direktur Utama sebagai Ketua P2K3, di mana pengawasan dipecah menjadi dua pilar utama: <strong>Pilar Pengawasan & Analisis</strong> (Audit & Evaluasi) dan <strong>Pilar Eksekusi Lapangan</strong> (Operasi K3) yang mengawasi kepatuhan prosedur harian.</i>
+      </p>
     </div>
   </div>
 </section>
-
-<!-- STATS -->
 <section class="section section-dark">
   <div class="container">
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:0;text-align:center;border:1px solid rgba(255,255,255,0.08);border-radius:12px;overflow:hidden;">
