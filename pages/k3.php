@@ -17,6 +17,47 @@ require_once '../includes/header.php';
   </div>
 </section>
 
+<section class="section" style="padding-bottom: 0;">
+  <div class="container">
+    <h2 class="section-title">Target &amp; KPI K3 <span>Tahun 2026</span></h2>
+    <p class="section-subtitle" style="margin-top:12px;">Metrik performa keselamatan kerja PT. Semar Gendut Indonesia yang dipantau secara real-time demi mencapai operational excellence.</p>
+    
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:36px;">
+      <div style="background:var(--white);border-radius:12px;padding:28px;border:1px solid rgba(10,22,40,0.06);box-shadow:var(--shadow);text-align:center;transition:transform 0.3s, box-shadow 0.3s;cursor:default;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='var(--shadow-lg)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow)';">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:800;color:var(--navy);line-height:1.1;display:flex;align-items:center;justify-content:center;gap:8px;">
+          <i class="fa-solid fa-shield-halved" style="color:var(--green);font-size:1.8rem;"></i> 0
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:1rem;color:var(--cyan);font-weight:700;margin:12px 0 6px;">Zero Accident</div>
+        <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">Target tren penurunan hingga 100% dari baseline.</p>
+      </div>
+      
+      <div style="background:var(--white);border-radius:12px;padding:28px;border:1px solid rgba(10,22,40,0.06);box-shadow:var(--shadow);text-align:center;transition:transform 0.3s, box-shadow 0.3s;cursor:default;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='var(--shadow-lg)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow)';">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:800;color:var(--navy);line-height:1.1;display:flex;align-items:center;justify-content:center;gap:8px;">
+          <i class="fa-solid fa-hard-hat" style="color:var(--yellow);font-size:1.8rem;"></i> 100%
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:1rem;color:var(--cyan);font-weight:700;margin:12px 0 6px;">Kepatuhan APD</div>
+        <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">Hasil dari audit berkala dan pengawasan harian di zona biru.</p>
+      </div>
+
+      <div style="background:var(--white);border-radius:12px;padding:28px;border:1px solid rgba(10,22,40,0.06);box-shadow:var(--shadow);text-align:center;transition:transform 0.3s, box-shadow 0.3s;cursor:default;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='var(--shadow-lg)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow)';">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:800;color:var(--navy);line-height:1.1;display:flex;align-items:center;justify-content:center;gap:8px;">
+          <i class="fa-solid fa-chart-line" style="color:var(--cyan);font-size:1.8rem;"></i> &lt; 0.5
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:1rem;color:var(--cyan);font-weight:700;margin:12px 0 6px;">Nilai LTIFR Target</div>
+        <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">Lost Time Injury Frequency Rate standar internasional.</p>
+      </div>
+
+      <div style="background:var(--white);border-radius:12px;padding:28px;border:1px solid rgba(10,22,40,0.06);box-shadow:var(--shadow);text-align:center;transition:transform 0.3s, box-shadow 0.3s;cursor:default;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='var(--shadow-lg)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow)';">
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:800;color:var(--navy);line-height:1.1;display:flex;align-items:center;justify-content:center;gap:8px;">
+          <i class="fa-solid fa-square-check" style="color:var(--green);font-size:1.8rem;"></i> 100%
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:1rem;color:var(--cyan);font-weight:700;margin:12px 0 6px;">Kepatuhan SOP</div>
+        <p style="font-size:0.8rem;color:var(--text-mid);margin:0;line-height:1.5;">Verifikasi berkala melalui mekanisme internal audit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="apd">
   <div class="container">
     <h2 class="section-title">Standar <span>APD</span></h2>
@@ -648,6 +689,166 @@ require_once '../includes/header.php';
   </div>
 </section>
 
+<section class="section" style="padding-top: 0;">
+  <div class="container">
+    <h2 class="section-title">Video Panduan <span>Keselamatan K3</span></h2>
+    <p class="section-subtitle" style="margin-top:12px;">Tonton seri video simulasi dan panduan taktis untuk memahami langkah penyelamatan, pencegahan, dan tanggap darurat K3 PT SGI.</p>
+    
+    <div class="video-playlist-container" style="margin-top:36px;">
+      <!-- Main Player -->
+      <div style="background:var(--white); padding:20px; border-radius:16px; border:1px solid rgba(10,22,40,0.06); box-shadow:var(--shadow);">
+        <div style="position:relative; width:100%; border-radius:12px; overflow:hidden; box-shadow:var(--shadow); background:#000; aspect-ratio:16/9;">
+          <video id="main-video-player" controls style="width:100%; height:100%; display:block;">
+            <source src="../assets/videos/kecelakaan_kerja.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutar video HTML5.
+          </video>
+        </div>
+        <div style="margin-top:20px;">
+          <span id="active-video-badge" style="background:rgba(220,38,38,0.1); color:var(--red); font-size:0.75rem; font-weight:700; padding:5px 12px; border-radius:100px; border:1px solid rgba(220,38,38,0.15); text-transform:uppercase; letter-spacing:0.05em; display:inline-block; margin-bottom:12px;">Tanggap Darurat</span>
+          <h3 id="active-video-title" style="font-family:'Barlow Condensed',sans-serif; font-size:1.8rem; text-transform:uppercase; color:var(--navy); margin-bottom:12px;">1. Prosedur Penanganan Awal &amp; Evakuasi Korban</h3>
+          <p id="active-video-desc" style="font-size:0.875rem; color:var(--text-mid); line-height:1.7; margin-bottom:0;">
+            Video edukasi ini memuat prosedur praktis K3 ketika terjadi insiden darurat, cara mengevakuasi korban dengan aman, meminimalisir risiko korsleting kelistrikan armada, serta alur koordinasi dengan petugas medis dan kepolisian.
+          </p>
+        </div>
+      </div>
+
+      <!-- Playlist Sidebar -->
+      <div style="background:var(--white); padding:20px; border-radius:16px; border:1px solid rgba(10,22,40,0.06); box-shadow:var(--shadow); display:flex; flex-direction:column; gap:16px; max-height:560px; overflow-y:auto;">
+        <h4 style="font-family:'Barlow Condensed',sans-serif; font-size:1.2rem; text-transform:uppercase; color:var(--navy); border-bottom:2px solid var(--cyan); padding-bottom:8px; margin-bottom:4px; display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-list-ul" style="color:var(--cyan);"></i> Daftar Putar K3
+        </h4>
+        
+        <div class="playlist-items-wrapper" style="display:flex; flex-direction:column; gap:12px;">
+          <!-- Item 1 -->
+          <div class="playlist-item active" onclick="changeVideo(0)" id="playlist-item-0" style="padding:12px; border-radius:8px; border:2px solid var(--cyan); background:rgba(0,180,216,0.04); cursor:pointer; display:flex; gap:12px; transition:all 0.2s;">
+            <div style="position:relative; width:90px; height:60px; background:#1e272e; border-radius:4px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="fa-solid fa-play" style="color:var(--white); font-size:14px; opacity:0.8;"></i>
+            </div>
+            <div>
+              <span style="font-size:0.65rem; color:var(--red); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;">Tanggap Darurat</span>
+              <h5 style="font-family:'Barlow',sans-serif; font-size:0.82rem; font-weight:700; color:var(--navy); line-height:1.2; margin:0;">Prosedur Penanganan &amp; Evakuasi</h5>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="playlist-item" onclick="changeVideo(1)" id="playlist-item-1" style="padding:12px; border-radius:8px; border:2px solid transparent; background:var(--gray-light); cursor:pointer; display:flex; gap:12px; transition:all 0.2s;" onmouseover="this.style.borderColor='rgba(0,180,216,0.3)';" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.borderColor='transparent';">
+            <div style="position:relative; width:90px; height:60px; background:#1e272e; border-radius:4px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="fa-solid fa-play" style="color:var(--white); font-size:14px; opacity:0.8;"></i>
+            </div>
+            <div>
+              <span style="font-size:0.65rem; color:var(--yellow); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;">Proteksi Kebakaran</span>
+              <h5 style="font-family:'Barlow',sans-serif; font-size:0.82rem; font-weight:700; color:var(--navy); line-height:1.2; margin:0;">Penggunaan APAR &amp; Titik Api</h5>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="playlist-item" onclick="changeVideo(2)" id="playlist-item-2" style="padding:12px; border-radius:8px; border:2px solid transparent; background:var(--gray-light); cursor:pointer; display:flex; gap:12px; transition:all 0.2s;" onmouseover="this.style.borderColor='rgba(0,180,216,0.3)';" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.borderColor='transparent';">
+            <div style="position:relative; width:90px; height:60px; background:#1e272e; border-radius:4px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="fa-solid fa-play" style="color:var(--white); font-size:14px; opacity:0.8;"></i>
+            </div>
+            <div>
+              <span style="font-size:0.65rem; color:var(--cyan); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;">Kepatuhan APD</span>
+              <h5 style="font-family:'Barlow',sans-serif; font-size:0.82rem; font-weight:700; color:var(--navy); line-height:1.2; margin:0;">Kewajiban APD Bengkel &amp; Pool</h5>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="playlist-item" onclick="changeVideo(3)" id="playlist-item-3" style="padding:12px; border-radius:8px; border:2px solid transparent; background:var(--gray-light); cursor:pointer; display:flex; gap:12px; transition:all 0.2s;" onmouseover="this.style.borderColor='rgba(0,180,216,0.3)';" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.borderColor='transparent';">
+            <div style="position:relative; width:90px; height:60px; background:#1e272e; border-radius:4px; overflow:hidden; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="fa-solid fa-play" style="color:var(--white); font-size:14px; opacity:0.8;"></i>
+            </div>
+            <div>
+              <span style="font-size:0.65rem; color:var(--green); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;">Administrasi K3</span>
+              <h5 style="font-family:'Barlow',sans-serif; font-size:0.82rem; font-weight:700; color:var(--navy); line-height:1.2; margin:0;">Alur Pelaporan &amp; Analisis HIRARC</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JavaScript to Drive the Playlist Interaction -->
+<script>
+  const videoData = [
+    {
+      src: "../assets/videos/kecelakaan_kerja.mp4",
+      title: "1. Prosedur Penanganan Awal & Evakuasi Korban",
+      badge: "Tanggap Darurat",
+      badgeColor: "var(--red)",
+      badgeBg: "rgba(220,38,38,0.1)",
+      badgeBorder: "rgba(220,38,38,0.15)",
+      desc: "Video edukasi ini memuat prosedur praktis K3 ketika terjadi insiden darurat, cara mengevakuasi korban dengan aman, meminimalisir risiko korsleting kelistrikan armada, serta alur koordinasi dengan petugas medis dan kepolisian."
+    },
+    {
+      src: "../assets/videos/kecelakaan_kerja2.mp4",
+      title: "2. Penggunaan APAR & Pemadaman Titik Api",
+      badge: "Proteksi Kebakaran",
+      badgeColor: "var(--yellow)",
+      badgeBg: "rgba(245,158,11,0.1)",
+      badgeBorder: "rgba(245,158,11,0.15)",
+      desc: "Panduan praktis mengoperasikan APAR (Alat Pemadam Api Ringan) jenis dry chemical powder dan CO2 saat mendeteksi percikan api atau kepulan asap pada area mesin bus."
+    },
+    {
+      src: "../assets/videos/kecelakaan_kerja3.mp4",
+      title: "3. Kewajiban Penggunaan APD di Area Bengkel & Pool",
+      badge: "Kepatuhan APD",
+      badgeColor: "var(--cyan)",
+      badgeBg: "rgba(0,180,216,0.1)",
+      badgeBorder: "rgba(0,180,216,0.15)",
+      desc: "Edukasi visual terstruktur mengenai pentingnya penggunaan alat pelindung kepala (helmet), safety shoes, rompi reflektif tingkat keterlihatan tinggi, dan kacamata pelindung selama masa perawatan armada."
+    },
+    {
+      src: "../assets/videos/kecelakaan_kerja4.mp4",
+      title: "4. Alur Pelaporan Insiden & Analisis HIRARC",
+      badge: "Administrasi K3",
+      badgeColor: "var(--green)",
+      badgeBg: "rgba(22,163,74,0.1)",
+      badgeBorder: "rgba(22,163,74,0.15)",
+      desc: "Tatacara mendokumentasikan kecelakaan kerja dan near-miss, alur pelaporan berjenjang 1x24 jam ke komite P2K3, serta investigasi penyebab akar masalah guna memperbarui lembar analisis risiko HIRARC."
+    }
+  ];
+
+  function changeVideo(index) {
+    const player = document.getElementById("main-video-player");
+    const badge = document.getElementById("active-video-badge");
+    const title = document.getElementById("active-video-title");
+    const desc = document.getElementById("active-video-desc");
+
+    // Update Player Source
+    player.src = videoData[index].src;
+    player.load();
+    player.play();
+
+    // Update Details
+    badge.innerText = videoData[index].badge;
+    badge.style.color = videoData[index].badgeColor;
+    badge.style.backgroundColor = videoData[index].badgeBg;
+    badge.style.borderColor = videoData[index].badgeBorder;
+    title.innerText = videoData[index].title;
+    desc.innerText = videoData[index].desc;
+
+    // Update Playlist Item Active Styling
+    const playlistItems = document.querySelectorAll(".playlist-item");
+    playlistItems.forEach((item, idx) => {
+      if (idx === index) {
+        item.classList.add("active");
+        item.setAttribute("data-active", "true");
+        item.style.borderColor = "var(--cyan)";
+        item.style.background = "rgba(0,180,216,0.04)";
+      } else {
+        item.classList.remove("active");
+        item.setAttribute("data-active", "false");
+        item.style.borderColor = "transparent";
+        item.style.background = "var(--gray-light)";
+      }
+    });
+  }
+  
+  // Set initial active state correctly
+  document.getElementById("playlist-item-0").setAttribute("data-active", "true");
+</script>
+
 <section class="section">
   <div class="container">
     <h2 class="section-title center" style="display:block;text-align:center;">Landasan <span>Hukum K3</span></h2>
@@ -681,6 +882,107 @@ require_once '../includes/header.php';
   </div>
 </section>
 
+<section class="section section-gray" id="checklist-audit" style="border-top: 1px solid rgba(10,22,40,0.05);">
+  <div class="container">
+    <h2 class="section-title">Check list Penerapan <span>SMK3</span></h2>
+    <p class="section-subtitle" style="margin-top:12px;">Evaluasi kepatuhan 12 Elemen Kriteria Sistem Manajemen K3 PT Semar Gendut Indonesia berdasarkan PP No. 50 Tahun 2012.</p>
+
+    
+
+    <?php
+    // MASTER DATA MULTIDIMENSIONAL ARRAY BERDASARKAN 12 ELEMEN DOKUMEN ANDA
+    $audit_elements = [
+      '1. Pembangunan dan Pemeliharaan Komitmen' => [
+        ['1.1.1', 'Terdapat kebijakan K3 yang tertulis bertanggal, ditandatangani oleh pengusaha atau pengurus, secara jelas menyatakan tujuan dan sasaran K3 serta komitmen terhadap peningkatan K3.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.'],
+        ['1.1.2', 'Kebijakan disusun oleh pengusaha dan/atau pengurus setelah melali proses konsultasi dengan wakil tenaga kerja.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.'],
+        ['1.1.3', 'Perusahaan mengkomunikasikan, kebijakan, K3 kepada seluruh tenaga kerja, tamu, kontraktor, pelanggan, dan pemasok dengan tata cara yang tepat.', 'Sesuai (V)', 'Kebijakan K3 telah terpasang di papan informasi pool utama, workshop, dan disosialisasikan via web.'],
+        ['1.4.3', 'Perusahaan telah membentuk P2K3 sesuai dengan peraturan perundang-undangan.', 'Sesuai (V)', 'P2K3 SGI resmi dibentuk dan disahkan oleh Disnaker setempat.']
+      ],
+      '2. Pembuatan dan Pendokumentasian Rencana K3' => [
+        ['2.1.1', 'Terdapat prosedur terdokumentasi untuk identifikasi potensi bahaya, penelitian, dan pengendalian risiko K3.', 'Sesuai (V)', 'Prosedur HIRADC tercantum lengkap di BAB II Rencana K3 Perusahaan.'],
+        ['2.2.1', 'Manual SMK3 meliputi kebijakan, tujuan, rencana, prosedur SMK3, instruksi kerja, formulir, catatan dan tanggung jawab serta wewenang tanggung jawab K3 untuk semua tingkatan dalam perusahaan.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '3. Pengendalian Perancangan dan Peninjauan Kontrak' => [
+        ['3.1.1', 'Prosedur yang terdokumentasi mempertimbangkan identifikasi potensi bahaya, penilaian, dan pengendalian risiko yang dilakukan pada tahap perancangan dan modifikasi.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '4. Pengendalian Dokumen' => [
+        ['4.1.1', 'Dokumen K3 Mempunyai identifikasi status, wewenang, tanggal pengeluaran dan tanggal modifikasi.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '5. Penilaian dan Pengendalian Produk' => [
+        ['5.1.1', 'Terdapat prosedur yang terdokumentasi yang dapat menjamin bahwa spesifikasi teknik dan informasi lain yang relevan dengan K3 telah diperiksa sebelum keputusan untuk membeli.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan air pemeriksaan pra-pembelian barang logistik.']
+      ],
+      '6. Keamanan Bekerja Berdasarkan SMK3' => [
+        ['6.1.7', 'Alat pelindung diri disediakan sesuai kebutuhan dan digunakan secara benar serta selalu dipelihara dalam kondisi layak pakai.', 'Sesuai (V)', 'Penyediaan APD mekanik dan rompi reflektif awak bus terpenuhi 100% dan terawat.'],
+        ['6.5.8', 'Apabila diperlukan dilakukan penerapan sistem penguncian pengoperasian (lock out system) untuk mencegah agar sarana produksi tidak dihidupkan sebelum saatnya.', 'Sesuai (V)', 'SOP LOTO wajib diterapkan saat perbaikan mekanikal berat di bawah kolong bus (pit service).'],
+        ['6.7.1', 'Keadaan darurat yang potensial di dalam dan/atau di luar tempat kerja telah diidentifikasi dan prosedur keadaan darurat telah didokumentasikan dan diinformasikan agar diketahui oleh seluruh orang yang ada di tempat kerja.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '7. Standar Pemantauan' => [
+        ['7.2.1', 'Pemantauan/ pengukuran lingkungan kerja dilaksanakan secara teratur dan hasilnya didokumentasikan, dipelihara dan digunakan untuk penilaian dan pengendalian risiko.', 'Sesuai (V)', 'Pengukuran kebisingan, getaran forklift, dan kadar lux cahaya tanggap kerja dilakukan tiap 6 bulan sekali.'],
+        ['7.4.1', 'Dilakukan pemantauan kesehatan tenaga kerja yang bekerja pada tempat kerja yang mengandung potensi bahaya tinggi sesuai dengan peraturan perundang-undangan.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '8. Pelaporan dan Perbaikan Kekurangan' => [
+        ['8.1.1', 'Terdapat prosedur pelaporan bahaya yang berhubungan dengan K3 dan prosedur ini diketahui oleh tenaga kerja.', 'Sesuai (V)', 'Alur pelaporan insiden & near miss wajib dilaporkan dalam waktu maksimal 1x24 jam.']
+      ],
+      '9. Pengelolaan Material dan Perpindahannya' => [
+        ['9.3.1', 'Perusahaan telah mendokumentasikan dan menerapkan prosedur mengenai penyimpanan, penanganan dan pemindahan BKB sesuai dengan persyaratan peraturan perundang-undangan, standar dan pedoman teknis yang relevan.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan implementasi SMK3 PT Semar Gendut Indonesia.']
+      ],
+      '10. Pengumpulan Dan Penggunaan Data' => [
+        ['10.1.1', 'Pengusaha atau pengurus telah mendokumentasikan dan menerapkan prosedur pelaksanaan identifikasi, pengumpulan, pengarsipan, pemeliharaan, penyimpanan dan penggantian catatan K3.', 'Sesuai (V)', 'Sesuai dengan kebijakan, program, SOP, dan penyimpanan berkas kontrol arsip K3.']
+      ],
+      '11. Pemeriksaan SMK3' => [
+        ['11.1.1', 'Audit internal SMK3 yang terjadwal dilaksanakan untuk memeriksa kesesuaian kegiatan perencanaan dan untuk menentukan efektifitas kegiatan tersebut.', 'Sesuai (V)', 'Audit internal SMK3 dijadwalkan secara berkala minimal 2 kali dalam satu tahun.']
+      ],
+      '12. Pengembangan Keterampilan dan Kemampuan' => [
+        ['12.3.2', 'Pelatihan K3 diberikan kepada tenaga kerja termasuk tenaga kerja baru dan yang dipindahkan agar mereka dapat melaksanakan tugasnya secara aman.', 'Sesuai (V)', 'Terselenggara terstruktur melalui program orientasi lapangan kerja (Safety Induction) bagi pramuniaga baru.'],
+        ['12.4.1', 'Terdapat prosedur yang menetapkan persyaratan untuk memberikan taklimat (briefing) kepada pengunjung dan mitra kerja guna menjamin K3.', 'Sesuai (V)', 'SOP taklimat keselamatan aktif dijalankan oleh petugas sekuriti di pos gerbang masuk pool utama.'],
+        ['12.5.1', 'Perusahaan mempunyai sistem yang menjamin kepatuhan terhadap persyaratan lisensi atau kualifikasi sesuai dengan peraturan perundangan untuk melaksanakan tugas khusus, melaksanakan pekerjaan atau mengoperasikan peralatan.', 'Sesuai (V)', 'Seluruh pengemudi wajib memiliki SIM BI/BII Umum aktif dan operator forklift memiliki SIO resmi Disnaker.']
+      ]
+    ];
+    ?>
+
+    <div style="margin-top: 32px;">
+      <?php foreach ($audit_elements as $element_name => $criteria_rows): ?>
+        <h4 style="font-family:'Barlow Condensed',sans-serif; font-size:1.15rem; text-transform:uppercase; color:var(--navy); margin:28px 0 12px; border-left: 3px solid var(--red); padding-left: 8px;">
+          <?= $element_name ?>
+        </h4>
+        
+        <div class="hazard-table-wrap" style="box-shadow:var(--shadow); border-radius:6px; overflow:hidden; margin-bottom: 16px;">
+          <table class="hazard-table">
+            <thead>
+              <tr>
+                <th style="width:80px; text-align:center;">No. Kriteria</th>
+                <th>Kriteria Audit Penerapan SMK3</th>
+                <th style="width:110px; text-align:center;">Penilaian</th>
+                <th>Keterangan Bukti Implementasi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php foreach ($criteria_rows as $row): ?>
+              <tr>
+                <td style="text-align:center; font-weight:700; color:var(--navy);"><?= $row[0] ?></td>
+                <td style="font-size:0.85rem; line-height:1.5; color:var(--text-dark);"><?= $row[1] ?></td>
+                <td style="text-align:center;">
+                  <span style="background:#e8f8f0; color:#2ecc71; padding:4px 8px; border-radius:4px; font-weight:700; font-size:0.75rem; text-transform:uppercase; border:1px solid rgba(46,204,113,0.15);">
+                    <i class="fa-solid fa-check" style="margin-right:2px;"></i> <?= $row[2] ?>
+                  </span>
+                </td>
+                <td style="font-size:0.8rem; color:var(--text-mid); font-style:italic;"><?= $row[3] ?></td>
+              </tr>
+              <?php endforeach; ?>
+            </tbody>
+          </table>
+        </div>
+      <?php endforeach; ?>
+    </div>
+
+    <div style="margin-top:40px; text-align:center;">
+      <a href="generate_pdf_audit.php" target="_blank" class="btn btn-primary btn-lg" style="box-shadow:var(--shadow); background:var(--navy); border-color:var(--navy);">
+        <i class="fa-solid fa-file-pdf" style="margin-right:8px;"></i> Cetak Full Check list Penerapan SMK3 (PDF)
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="cta-banner">
   <div class="container">
     <div class="cta-inner">
@@ -692,6 +994,64 @@ require_once '../includes/header.php';
         <a href="kontak.php" class="btn btn-primary btn-lg">Hubungi Tim K3</a>
         <a href="layanan.php" class="btn btn-outline btn-lg">Lihat Layanan</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-gray" id="pelatihan">
+  <div class="container">
+    <h2 class="section-title">Matriks Pelatihan <span>K3 SGI</span></h2>
+    <p class="section-subtitle" style="margin-top:12px;">Investasi berkelanjutan untuk membangun pengetahuan, keterampilan, dan sikap kerja aman bagi SDM transportasi.</p>
+    
+    <div class="hazard-table-wrap" style="margin-top:36px;">
+      <table class="hazard-table">
+        <thead>
+          <tr>
+            <th>Jenis Pelatihan</th>
+            <th>Peserta Wajib</th>
+            <th>Frekuensi</th>
+            <th>Durasi</th>
+            <th>Penyelenggara</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Safety Induction</strong></td>
+            <td>Semua karyawan baru</td>
+            <td>Setiap ada angkatan baru</td>
+            <td>4 Jam</td>
+            <td>Tim Internal K3</td>
+          </tr>
+          <tr>
+            <td><strong>Defensive Driving</strong></td>
+            <td>Semua pengemudi armada</td>
+            <td>1x Per Tahun</td>
+            <td>8 Jam</td>
+            <td>Lembaga Eksternal</td>
+          </tr>
+          <tr>
+            <td><strong>Penggunaan APAR</strong></td>
+            <td>Seluruh personel pool &amp; staf</td>
+            <td>2x Per Tahun</td>
+            <td>3 Jam</td>
+            <td>Tim Internal K3</td>
+          </tr>
+          <tr>
+            <td><strong>Sistem LOTO (Lock Out Tag Out)</strong></td>
+            <td>Mekanik &amp; Tim Maintenance</td>
+            <td>1x Per Tahun</td>
+            <td>4 Jam</td>
+            <td>Tim Internal K3</td>
+          </tr>
+          <tr>
+            <td><strong>Operasi Forklift Terlisensi</strong></td>
+            <td>Operator khusus forklift</td>
+            <td>Sesuai masa berlaku SIM</td>
+            <td>16 Jam</td>
+            <td>Disnaker</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>

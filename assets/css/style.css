@@ -1849,3 +1849,42 @@ footer {
     text-align: center;
   }
 }
+
+/* ---- VIDEO SECTION ---- */
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 32px;
+  }
+}
+
+.video-playlist-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (min-width: 992px) {
+  .video-playlist-container {
+    grid-template-columns: 1.8fr 1fr;
+    gap: 32px;
+  }
+}
+
+/* ---- ACCESSIBILITY: KEYBOARD FOCUS ---- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--cyan);
+  outline-offset: 3px;
+}

@@ -36,11 +36,11 @@
       <div class="footer-col">
         <h5>Layanan Kami</h5>
         <ul>
-          <li><a href="pages/layanan.php#antar-kota">Transportasi Antar Kota</a></li>
-          <li><a href="pages/layanan.php#pariwisata">Wisata &amp; Charter</a></li>
-          <li><a href="pages/layanan.php#logistik">Distribusi Logistik</a></li>
-          <li><a href="pages/layanan.php#premium">Armada Premium</a></li>
-          <li><a href="pages/layanan.php#korporat">Layanan Korporat</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/layanan.php#antar-kota">Transportasi Antar Kota</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/layanan.php#pariwisata">Wisata &amp; Charter</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/layanan.php#logistik">Distribusi Logistik</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/layanan.php#premium">Armada Premium</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/layanan.php#korporat">Layanan Korporat</a></li>
         </ul>
       </div>
 
@@ -48,11 +48,11 @@
       <div class="footer-col">
         <h5>Keselamatan (K3)</h5>
         <ul>
-          <li><a href="pages/k3.php#apd">Standar APD</a></li>
-          <li><a href="pages/k3.php#hazard">Identifikasi Bahaya</a></li>
-          <li><a href="pages/k3.php#denah">Denah Keselamatan</a></li>
-          <li><a href="pages/k3.php#prosedur">Prosedur Darurat</a></li>
-          <li><a href="pages/k3.php#hierarki">Hierarki Pengendalian</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/k3.php#apd">Standar APD</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/k3.php#hazard">Identifikasi Bahaya</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/k3.php#denah">Denah Keselamatan</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/k3.php#prosedur">Prosedur Darurat</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/k3.php#hierarki">Hierarki Pengendalian</a></li>
         </ul>
       </div>
 
@@ -60,11 +60,11 @@
       <div class="footer-col">
         <h5>Perusahaan</h5>
         <ul>
-          <li><a href="../pages/tentang.php">Tentang Kami</a></li>
-          <li><a href="../pages/tentang.php#sejarah">Sejarah</a></li>
-          <li><a href="../pages/tentang.php#visi">Visi &amp; Misi</a></li>
-          <li><a href="../pages/tentang.php#struktur">Struktur Organisasi</a></li>
-          <li><a href="../pages/kontak.php">Hubungi Kami</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/tentang.php">Tentang Kami</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/tentang.php#sejarah">Sejarah</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/tentang.php#visi">Visi &amp; Misi</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/tentang.php#struktur">Struktur Organisasi</a></li>
+          <li><a href="<?php echo $base_path ?? ''; ?>pages/kontak.php">Hubungi Kami</a></li>
         </ul>
       </div>
     </div>
